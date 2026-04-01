@@ -1,0 +1,15 @@
+{
+  "runId": "L-10",
+  "experiment": "exp-08",
+  "variant": "L",
+  "variantName": "procedural-axioms-pd",
+  "timestamp": "2026-03-29T01:07:48.750497+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3226,
+  "outputTokens": 2235,
+  "totalTokens": 5461,
+  "costUSD": 0.043203,
+  "outputFile": "data/exp-08/raw/L-10.md"
+}

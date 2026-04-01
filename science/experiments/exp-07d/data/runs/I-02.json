@@ -1,0 +1,15 @@
+{
+  "runId": "I-02",
+  "experiment": "exp-07d",
+  "variant": "I",
+  "variantName": "persona-slot-pp",
+  "timestamp": "2026-03-28T03:21:17.721239+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3008,
+  "outputTokens": 2500,
+  "totalTokens": 5508,
+  "costUSD": 0.046524,
+  "outputFile": "data/exp-07d/raw/I-02.md"
+}

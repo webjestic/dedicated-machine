@@ -1,0 +1,15 @@
+{
+  "runId": "A-10",
+  "experiment": "exp-21b",
+  "variant": "A",
+  "variantName": "pp-orientation-vocab",
+  "timestamp": "2026-03-30T12:33:15.202774+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2450,
+  "outputTokens": 1691,
+  "totalTokens": 4141,
+  "costUSD": 0.032715,
+  "outputFile": "experiments/exp-21b/output/A-10.md"
+}

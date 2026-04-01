@@ -1,0 +1,15 @@
+{
+  "runId": "B-08",
+  "experiment": "exp-27",
+  "variant": "B",
+  "variantName": "pp-task-scoped",
+  "timestamp": "2026-03-30T22:14:03.483895+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 72,
+  "outputTokens": 3999,
+  "totalTokens": 4071,
+  "costUSD": 0.060201,
+  "outputFile": "experiments/exp-27/output/B-08.md"
+}

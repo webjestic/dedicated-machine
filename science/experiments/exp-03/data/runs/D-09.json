@@ -1,0 +1,15 @@
+{
+  "runId": "D-09",
+  "experiment": "exp-03",
+  "variant": "D",
+  "variantName": "strong-pp-instructions-stakes",
+  "timestamp": "2026-03-26T20:25:58.711060+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1276,
+  "outputTokens": 716,
+  "totalTokens": 1992,
+  "costUSD": 0.014568,
+  "outputFile": "data/exp-03/raw/D-09.md"
+}

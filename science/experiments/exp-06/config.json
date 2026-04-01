@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-06",
+  "description": "PCSIEFTR self-review \u2014 academic paper reviewer P_p vs. P_d",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 4096,
+  "runs_per_variant": 5,
+  "variants": [
+    "A",
+    "B"
+  ],
+  "paper": "../../research/paper/pcsieftr_d2.md",
+  "notes": "Meta-experiment: PCSIEFTR framework used to review its own paper. Prompt template uses {{PAPER}} placeholder replaced at runtime with pcsieftr_d2.md content. max_tokens=4096 \u2014 paper reviews are longer than code reviews. Ground truth: known gaps in pcsieftr_d2.md defined in SCORING.md before runs."
+}

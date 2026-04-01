@@ -1,0 +1,15 @@
+{
+  "runId": "B-10",
+  "experiment": "exp-10b",
+  "variant": "B",
+  "variantName": "diluted-pp",
+  "timestamp": "2026-03-29T10:37:42.664539+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3262,
+  "outputTokens": 1949,
+  "totalTokens": 5211,
+  "costUSD": 0.039021,
+  "outputFile": "data/exp-10b/raw/B-10.md"
+}

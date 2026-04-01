@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-07b",
+  "description": "Slot-swap v2: calibrated scenario \u2014 obvious bugs fixed, zombie write as sole hidden failure mode",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "I",
+    "J",
+    "C"
+  ],
+  "notes": "Recalibrated after exp-07 failure (0/10 all variants). exp-07 code had instance-level heartbeat state, TOCTOU lock release, and non-atomic DB operations \u2014 more obvious than the intended zombie-write trap. exp-07b fixes all of these: per-lock heartbeat via threading.Event, atomic Lua release, Lua extend, DB transaction, Pydantic validation, LockAcquisitionError. Sole remaining hidden failure: process-pause zombie write \u2014 the main thread cannot be aborted if the lock expires mid-critical-section. Fix requires fencing token or DB-level optimistic locking. Same slot-swap design: I = P_p Persona, J = P_d baseline, C = P_d Persona + domain content in Instructions."
+}

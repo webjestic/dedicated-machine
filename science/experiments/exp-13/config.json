@@ -1,0 +1,16 @@
+{
+  "experiment": "exp-13",
+  "description": "Phase 6 \u2014 Semantic Density: Well Count Test, Controlled Relevance. Same artifact as exp-10b/exp-12. Additional wells are orthogonal domains (ML systems, frontend) with no conceptual overlap with distributed locking or timeout arithmetic.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "notes": "Well Count Test \u2014 Controlled Relevance. Fixes exp-12 confound: C's third well ('timeout arithmetic') was task-specifically relevant. exp-13 additional wells are ML systems and frontend engineering \u2014 genuinely orthogonal to distributed locking and payment timing. A=1 well (dense P_p, replicates exp-12 A). B=2 wells (dist. systems + ML systems). C=3 wells (dist. systems + ML systems + frontend). D=P_d baseline. Token count held roughly equal across A/B/C. If dilution is real: A > B > C > D. If relevance was the entire story in exp-12: A \u2248 B \u2248 C > D."
+}

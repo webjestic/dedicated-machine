@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-07c",
+  "description": "Slot-swap v3: calibrated scenario \u2014 all obvious bugs fixed, zombie write as sole hidden failure mode",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "I",
+    "J",
+    "C"
+  ],
+  "notes": "Third calibration iteration. exp-07 failed: instance-level heartbeat, TOCTOU release, non-atomic DB. exp-07b failed: threading.Event.wait() misuse (tight loop heartbeat), ValidationError uncaught. exp-07c fixes all: stop_event starts cleared, 'while not stop_event.wait(timeout=N)' pattern, ValidationError caught. Sole remaining hidden failure: process-pause zombie write \u2014 current_stock read outside transaction; if process pauses > LOCK_TTL, lock expires, another process runs, original process resumes with stale stock reading and writes oversell. Fix requires fencing token or DB optimistic locking with version field. Scoring is two-tier: 1 = names mechanism + fencing/optimistic fix; 0.5 = names mechanism + SELECT FOR UPDATE only; 0 = TOCTOU without mechanism identification."
+}

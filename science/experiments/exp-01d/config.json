@@ -1,0 +1,13 @@
+{
+  "experiment": "exp-01d",
+  "description": "Persona vs Context isolation \u2014 which carries the implicit stakes?",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "G",
+    "H"
+  ]
+}

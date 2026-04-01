@@ -1,0 +1,71 @@
+{
+  "experiment": "exp-11",
+  "totalRuns": 5,
+  "totalInputTokens": 9470,
+  "totalOutputTokens": 7105,
+  "totalTokens": 16575,
+  "totalCostUSD": 0.134985,
+  "byVariant": {
+    "X0": {
+      "variantName": "cold",
+      "runs": 5,
+      "inputTokens": 9470,
+      "outputTokens": 7105,
+      "costUSD": 0.134985
+    }
+  },
+  "byModel": {
+    "claude-sonnet-4-6": {
+      "inputTokens": 9470,
+      "outputTokens": 7105,
+      "costUSD": 0.134985
+    }
+  },
+  "runs": [
+    {
+      "runId": "X0-01",
+      "variant": "X0",
+      "timestamp": "2026-03-29T10:49:05.652899+00:00",
+      "inputTokens": 1894,
+      "outputTokens": 1604,
+      "totalTokens": 3498,
+      "costUSD": 0.029742
+    },
+    {
+      "runId": "X0-02",
+      "variant": "X0",
+      "timestamp": "2026-03-29T10:49:39.208607+00:00",
+      "inputTokens": 1894,
+      "outputTokens": 1325,
+      "totalTokens": 3219,
+      "costUSD": 0.025557
+    },
+    {
+      "runId": "X0-03",
+      "variant": "X0",
+      "timestamp": "2026-03-29T10:50:16.574744+00:00",
+      "inputTokens": 1894,
+      "outputTokens": 1470,
+      "totalTokens": 3364,
+      "costUSD": 0.027732
+    },
+    {
+      "runId": "X0-04",
+      "variant": "X0",
+      "timestamp": "2026-03-29T10:50:49.343203+00:00",
+      "inputTokens": 1894,
+      "outputTokens": 1312,
+      "totalTokens": 3206,
+      "costUSD": 0.025362
+    },
+    {
+      "runId": "X0-05",
+      "variant": "X0",
+      "timestamp": "2026-03-29T10:51:26.105007+00:00",
+      "inputTokens": 1894,
+      "outputTokens": 1394,
+      "totalTokens": 3288,
+      "costUSD": 0.026592
+    }
+  ]
+}

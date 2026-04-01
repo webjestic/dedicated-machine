@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-04",
+  "description": "Stakes Type \u2014 Task Stakes (Prioritizer) vs. Identity Stakes (Amplifier) on convergence position",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

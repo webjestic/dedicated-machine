@@ -1,0 +1,15 @@
+{
+  "runId": "C-07",
+  "experiment": "exp-04",
+  "variant": "C",
+  "variantName": "strong-pp-no-stakes",
+  "timestamp": "2026-03-26T21:39:14.448343+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1533,
+  "outputTokens": 1772,
+  "totalTokens": 3305,
+  "costUSD": 0.031179,
+  "outputFile": "data/exp-04/raw/C-07.md"
+}

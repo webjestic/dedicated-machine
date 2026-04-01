@@ -1,0 +1,15 @@
+{
+  "runId": "D-08",
+  "experiment": "exp-13",
+  "variant": "D",
+  "variantName": "pd-baseline",
+  "timestamp": "2026-03-29T15:18:17.289193+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3240,
+  "outputTokens": 1447,
+  "totalTokens": 4687,
+  "costUSD": 0.031425,
+  "outputFile": "data/exp-13/raw/D-08.md"
+}

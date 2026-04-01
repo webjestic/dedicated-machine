@@ -1,0 +1,13 @@
+{
+  "experiment": "exp-16",
+  "description": "Phase 7 \u2014 Meta-Review: P_p reviewer (fused Persona) + closed experimental record injection reads full d5 paper. Tests whether the working tool produces scorable, high-quality structural critique independent of the authors. Retroactively designated from temp.local/meta-review-check full-run after confirming results are scorable.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 4000,
+  "runs_per_variant": 5,
+  "variants": [
+    "full-run"
+  ],
+  "notes": "Single-variant experiment. Variant: B (fused) Persona from temp.local/meta-review-check/variants/B-fused.md, expanded with {{FINDINGS}} injection slot and full EXPERIMENTAL RECORD section. Paper: parc_d5.md (~82K chars, ~24K tokens estimated input). Findings injection: findings-closed.md (~9K chars) \u2014 confirmed results and falsified hypotheses only, no closure framing. Design intent: reviewer has the experimental record as context and discovers open questions independently. Comparison baseline: exp-06 A-runs (P_p reviewer on d2, mean 3.0/5 primary criteria, 5 runs)."
+}

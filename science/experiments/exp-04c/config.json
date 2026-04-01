@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-04c",
+  "description": "Stakes Type \u2014 distributed idempotency race; cross-service check-then-act; VisibilityTimeout/autoscaling misdirection",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

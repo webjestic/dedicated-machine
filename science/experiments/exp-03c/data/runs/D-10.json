@@ -1,0 +1,15 @@
+{
+  "runId": "D-10",
+  "experiment": "exp-03c",
+  "variant": "D",
+  "variantName": "strong-pp-prohibition-stakes",
+  "timestamp": "2026-03-27T10:50:47.976745+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1517,
+  "outputTokens": 256,
+  "totalTokens": 1773,
+  "costUSD": 0.008391,
+  "outputFile": "data/exp-03c/raw/D-10.md"
+}

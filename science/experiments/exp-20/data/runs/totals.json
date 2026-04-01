@@ -1,0 +1,310 @@
+{
+  "experiment": "exp-20",
+  "totalRuns": 30,
+  "totalInputTokens": 73870,
+  "totalOutputTokens": 64788,
+  "totalTokens": 138658,
+  "totalCostUSD": 1.19343,
+  "byVariant": {
+    "A": {
+      "variantName": "pp-vocabulary",
+      "runs": 10,
+      "inputTokens": 25080,
+      "outputTokens": 20263,
+      "costUSD": 0.379185
+    },
+    "B": {
+      "variantName": "pd-vocabulary",
+      "runs": 10,
+      "inputTokens": 24820,
+      "outputTokens": 23093,
+      "costUSD": 0.420855
+    },
+    "C": {
+      "variantName": "pd-baseline",
+      "runs": 10,
+      "inputTokens": 23970,
+      "outputTokens": 21432,
+      "costUSD": 0.39339
+    }
+  },
+  "byModel": {
+    "claude-sonnet-4-6": {
+      "inputTokens": 73870,
+      "outputTokens": 64788,
+      "costUSD": 1.19343
+    }
+  },
+  "runs": [
+    {
+      "runId": "A-01",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:15:19.286082+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 2500,
+      "totalTokens": 5008,
+      "costUSD": 0.045024
+    },
+    {
+      "runId": "A-02",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:16:03.496620+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 2138,
+      "totalTokens": 4646,
+      "costUSD": 0.039594
+    },
+    {
+      "runId": "A-03",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:16:42.003188+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 1626,
+      "totalTokens": 4134,
+      "costUSD": 0.031914
+    },
+    {
+      "runId": "A-04",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:17:30.539145+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 2102,
+      "totalTokens": 4610,
+      "costUSD": 0.039054
+    },
+    {
+      "runId": "A-05",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:18:12.725409+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 1865,
+      "totalTokens": 4373,
+      "costUSD": 0.035499
+    },
+    {
+      "runId": "A-06",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:19:01.475171+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 2063,
+      "totalTokens": 4571,
+      "costUSD": 0.038469
+    },
+    {
+      "runId": "A-07",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:19:39.073823+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 1712,
+      "totalTokens": 4220,
+      "costUSD": 0.033204
+    },
+    {
+      "runId": "A-08",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:20:30.928979+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 2500,
+      "totalTokens": 5008,
+      "costUSD": 0.045024
+    },
+    {
+      "runId": "A-09",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:21:16.228119+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 2221,
+      "totalTokens": 4729,
+      "costUSD": 0.040839
+    },
+    {
+      "runId": "A-10",
+      "variant": "A",
+      "timestamp": "2026-03-30T11:21:51.144406+00:00",
+      "inputTokens": 2508,
+      "outputTokens": 1536,
+      "totalTokens": 4044,
+      "costUSD": 0.030564
+    },
+    {
+      "runId": "B-01",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:22:28.864749+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 1683,
+      "totalTokens": 4165,
+      "costUSD": 0.032691
+    },
+    {
+      "runId": "B-02",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:23:15.725805+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 2500,
+      "totalTokens": 4982,
+      "costUSD": 0.044946
+    },
+    {
+      "runId": "B-03",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:23:59.536306+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 2098,
+      "totalTokens": 4580,
+      "costUSD": 0.038916
+    },
+    {
+      "runId": "B-04",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:24:49.226562+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 2500,
+      "totalTokens": 4982,
+      "costUSD": 0.044946
+    },
+    {
+      "runId": "B-05",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:25:38.351331+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 2340,
+      "totalTokens": 4822,
+      "costUSD": 0.042546
+    },
+    {
+      "runId": "B-06",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:26:25.180275+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 2500,
+      "totalTokens": 4982,
+      "costUSD": 0.044946
+    },
+    {
+      "runId": "B-07",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:27:10.293415+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 2500,
+      "totalTokens": 4982,
+      "costUSD": 0.044946
+    },
+    {
+      "runId": "B-08",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:28:00.050784+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 2480,
+      "totalTokens": 4962,
+      "costUSD": 0.044646
+    },
+    {
+      "runId": "B-09",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:28:38.807910+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 1992,
+      "totalTokens": 4474,
+      "costUSD": 0.037326
+    },
+    {
+      "runId": "B-10",
+      "variant": "B",
+      "timestamp": "2026-03-30T11:29:20.248109+00:00",
+      "inputTokens": 2482,
+      "outputTokens": 2500,
+      "totalTokens": 4982,
+      "costUSD": 0.044946
+    },
+    {
+      "runId": "C-01",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:29:58.782556+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 1913,
+      "totalTokens": 4310,
+      "costUSD": 0.035886
+    },
+    {
+      "runId": "C-02",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:30:35.046556+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 2169,
+      "totalTokens": 4566,
+      "costUSD": 0.039726
+    },
+    {
+      "runId": "C-03",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:31:10.257259+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 1921,
+      "totalTokens": 4318,
+      "costUSD": 0.036006
+    },
+    {
+      "runId": "C-04",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:31:46.305249+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 2248,
+      "totalTokens": 4645,
+      "costUSD": 0.040911
+    },
+    {
+      "runId": "C-05",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:32:25.393569+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 2158,
+      "totalTokens": 4555,
+      "costUSD": 0.039561
+    },
+    {
+      "runId": "C-06",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:33:03.712956+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 2194,
+      "totalTokens": 4591,
+      "costUSD": 0.040101
+    },
+    {
+      "runId": "C-07",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:33:47.951523+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 2500,
+      "totalTokens": 4897,
+      "costUSD": 0.044691
+    },
+    {
+      "runId": "C-08",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:34:22.478666+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 1702,
+      "totalTokens": 4099,
+      "costUSD": 0.032721
+    },
+    {
+      "runId": "C-09",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:35:07.112970+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 2242,
+      "totalTokens": 4639,
+      "costUSD": 0.040821
+    },
+    {
+      "runId": "C-10",
+      "variant": "C",
+      "timestamp": "2026-03-30T11:35:47.035143+00:00",
+      "inputTokens": 2397,
+      "outputTokens": 2385,
+      "totalTokens": 4782,
+      "costUSD": 0.042966
+    }
+  ]
+}

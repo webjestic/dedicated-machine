@@ -1,0 +1,15 @@
+{
+  "runId": "C-02",
+  "experiment": "exp-02",
+  "variant": "C",
+  "variantName": "pd-identity-stakes-contract",
+  "timestamp": "2026-03-26T19:25:18.272653+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2642,
+  "outputTokens": 2500,
+  "totalTokens": 5142,
+  "costUSD": 0.045426,
+  "outputFile": "data/exp-02/raw/C-02.md"
+}

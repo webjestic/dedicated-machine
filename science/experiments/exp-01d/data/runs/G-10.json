@@ -1,0 +1,15 @@
+{
+  "runId": "G-10",
+  "experiment": "exp-01d",
+  "variant": "G",
+  "variantName": "rich-persona-no-context",
+  "timestamp": "2026-03-25T19:46:35.258915+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1000,
+  "outputTokens": 1723,
+  "totalTokens": 2723,
+  "costUSD": 0.028845,
+  "outputFile": "data/exp-01d/raw/G-10.md"
+}

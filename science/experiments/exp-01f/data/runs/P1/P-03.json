@@ -1,0 +1,15 @@
+{
+  "runId": "P-03",
+  "experiment": "exp-01f",
+  "variant": "P",
+  "variantName": "strong-identity-stakes-rich-context",
+  "timestamp": "2026-03-26T13:58:46.164693+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2666,
+  "outputTokens": 2500,
+  "totalTokens": 5166,
+  "costUSD": 0.045498,
+  "outputFile": "data/exp-01f/raw/P-03.md"
+}

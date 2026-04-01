@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-14",
+  "description": "Phase 6 \u2014 Semantic Density: Fusion Test. Same domain content, same compulsion language \u2014 fused compound identity (A) vs. explicitly split two-anchor identity (B) vs. P_d baseline (C). Tests whether linguistic fusion of themes creates the density, or whether domain content alone carries the weight.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "notes": "Fusion Test. A and B contain identical thematic content: distributed systems expertise + thoroughness/compulsion. The variable is structural: A fuses both themes into one compound identity (the compulsion is an attribute of the distributed systems engineer); B splits them into two separate 'You are' anchors (domain expertise stated, then behavioral drive stated independently). If A > B: fusion form creates the gravity well depth. If A \u2248 B: domain content alone carries the weight and fusion is incidental. C is the P_d floor anchor."
+}

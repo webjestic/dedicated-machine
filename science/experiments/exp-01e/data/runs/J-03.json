@@ -1,0 +1,15 @@
+{
+  "runId": "J-03",
+  "experiment": "exp-01e",
+  "variant": "J",
+  "variantName": "weak-generic-rich-context",
+  "timestamp": "2026-03-26T01:31:34.848764+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2497,
+  "outputTokens": 1951,
+  "totalTokens": 4448,
+  "costUSD": 0.036756,
+  "outputFile": "data/exp-01e/raw/J-03.md"
+}

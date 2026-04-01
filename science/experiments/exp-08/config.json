@@ -1,0 +1,18 @@
+{
+  "experiment": "exp-08",
+  "description": "Examples-slot installer: mechanism demonstrations as P_p substitute",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "I",
+    "J",
+    "C",
+    "E",
+    "K",
+    "L"
+  ],
+  "notes": "Tests whether mechanism demonstrations in the Examples slot install P_p consideration-set behavior independently of Persona identity. Artifact: same silent zombie-write from exp-07d (no logger.warning). Four variants: I (P_p, no examples), J (P_d, no examples), C (P_d + mechanism examples), E (P_p + mechanism examples). Binary question: does C match I (Examples slot is a P_p installer) or J (Persona slot is architecturally load-bearing)? Variant E tests whether Examples + P_p produces additive gains or saturation. The mechanism examples show the P_p reasoning posture for distributed coordination review \u2014 installing the search algorithm (ask about mid-operation invalidation) without providing the specific failure mode (GC-pause / process-pause)."
+}

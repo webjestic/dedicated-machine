@@ -1,0 +1,15 @@
+{
+  "runId": "B-10",
+  "experiment": "exp-28b",
+  "variant": "B",
+  "variantName": "pp-gap-detection",
+  "timestamp": "2026-03-31T02:17:56.337196+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 103,
+  "outputTokens": 4000,
+  "totalTokens": 4103,
+  "costUSD": 0.060309,
+  "outputFile": "experiments/exp-28b/output/B-10.md"
+}

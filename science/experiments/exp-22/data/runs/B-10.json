@@ -1,0 +1,15 @@
+{
+  "runId": "B-10",
+  "experiment": "exp-22",
+  "variant": "B",
+  "variantName": "pd-generic-interrogative-artifact",
+  "timestamp": "2026-03-30T14:14:03.083547+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2578,
+  "outputTokens": 2265,
+  "totalTokens": 4843,
+  "costUSD": 0.041709,
+  "outputFile": "experiments/exp-22/output/B-10.md"
+}

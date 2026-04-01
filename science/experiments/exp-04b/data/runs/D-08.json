@@ -1,0 +1,15 @@
+{
+  "runId": "D-08",
+  "experiment": "exp-04b",
+  "variant": "D",
+  "variantName": "weak-task-stakes",
+  "timestamp": "2026-03-27T10:00:28.413678+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1557,
+  "outputTokens": 1495,
+  "totalTokens": 3052,
+  "costUSD": 0.027096,
+  "outputFile": "data/exp-04b/raw/D-08.md"
+}

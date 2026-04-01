@@ -1,0 +1,15 @@
+{
+  "runId": "K-03",
+  "experiment": "exp-08",
+  "variant": "K",
+  "variantName": "axioms-pd",
+  "timestamp": "2026-03-29T00:16:23.123647+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3232,
+  "outputTokens": 1852,
+  "totalTokens": 5084,
+  "costUSD": 0.037476,
+  "outputFile": "data/exp-08/raw/K-03.md"
+}

@@ -1,0 +1,15 @@
+{
+  "runId": "A-05",
+  "experiment": "exp-01c",
+  "variant": "A",
+  "variantName": "strong-rich-minimal-no-stakes",
+  "timestamp": "2026-03-25T18:24:29.048714+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1087,
+  "outputTokens": 2238,
+  "totalTokens": 3325,
+  "costUSD": 0.036831,
+  "outputFile": "data/exp-01c/raw/A-05.md"
+}

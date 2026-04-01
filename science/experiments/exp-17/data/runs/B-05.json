@@ -1,0 +1,15 @@
+{
+  "runId": "B-05",
+  "experiment": "exp-17",
+  "variant": "B",
+  "variantName": "trait-domain",
+  "timestamp": "2026-03-29T22:11:54.357565+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3276,
+  "outputTokens": 2209,
+  "totalTokens": 5485,
+  "costUSD": 0.042963,
+  "outputFile": "data/exp-17/raw/B-05.md"
+}

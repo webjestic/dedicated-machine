@@ -1,0 +1,13 @@
+{
+  "experiment": "exp-01g",
+  "description": "Cross-model validation \u2014 exp-01e I and J variants on Gemini 2.5 Pro",
+  "provider": "GEMINI",
+  "model": "gemini-2.5-pro",
+  "temperature": 0.5,
+  "max_tokens": 8000,
+  "runs_per_variant": 10,
+  "variants": [
+    "I",
+    "J"
+  ]
+}

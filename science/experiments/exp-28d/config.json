@@ -1,0 +1,47 @@
+{
+  "experiment": "exp-28d",
+  "description": "Two-agent pipeline vs. single-pass on operational horizon (rate limiter). Tests whether a dedicated design agent (SRE P_p) + implementation agent pipeline crosses the Tier 2 SRE wall that single-pass prompts cannot reach. Variant A is a two-step pipeline; B is the exp-28b D ceiling; C is the P_d calibration anchor.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 8000,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "runs_per_variant": 10,
+  "pipeline": {
+    "A": {
+      "type": "two-step",
+      "agent1": "variants/A-pipeline-agent1-design.md",
+      "agent2": "variants/A-pipeline-agent2-implement.md",
+      "handoff": "agent1_output \u2192 {{DESIGN_DOC}} in agent2",
+      "protocol": "Run agent1 once to produce canonical design doc. Run agent2 n=10 against that doc. Score agent2 outputs. Also score agent1 design doc separately."
+    },
+    "B": {
+      "type": "single-pass",
+      "prompt": "variants/B-single-pass-D.md"
+    },
+    "C": {
+      "type": "single-pass",
+      "prompt": "variants/C-pd-baseline.md"
+    }
+  },
+  "scoring": {
+    "checklist": [
+      "observability",
+      "alerting_policy",
+      "graceful_degrade",
+      "client_error_guide",
+      "load_test_spec",
+      "env_driven_config",
+      "health_check",
+      "incident_runbook",
+      "memory_audit",
+      "race_condition_tests"
+    ],
+    "calibration_target": "C mean <= 2/10",
+    "primary_signal": "Tier 2 detection rate for A vs B"
+  }
+}

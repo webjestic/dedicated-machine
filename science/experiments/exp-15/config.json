@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-15",
+  "description": "Phase 6 \u2014 Semantic Density: Fusion Generalizability. Same two themes as exp-14 (distributed systems expertise + compulsive boundary-tracing), but expressed in fresh wording. Tests whether the +123 fusion effect is a portable property of compound identity structure, or specific to the exp-14 sentence.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "notes": "Fusion Generalizability. A and B contain the same two themes as exp-14 A/B (distributed systems expertise + compulsive thoroughness about failure modes) but stated in entirely new wording. The variable is structural: A fuses both themes into one compound identity sentence; B splits them into two separate 'You are' anchors. If A > B (+~123 tokens): fusion is a portable structural property. If A \u2248 B: the exp-14 fusion effect was sentence-specific \u2014 the specific tokens in that compound mattered, not the grammatical entanglement. C is the P_d floor anchor, identical to exp-14 C."
+}

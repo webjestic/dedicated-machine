@@ -1,0 +1,15 @@
+{
+  "runId": "A-04",
+  "experiment": "exp-06",
+  "variant": "A",
+  "variantName": "pcsieftr-pp-paper-review",
+  "timestamp": "2026-03-27T13:24:22.806380+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 14899,
+  "outputTokens": 3487,
+  "totalTokens": 18386,
+  "costUSD": 0.097002,
+  "outputFile": "data/exp-06/raw/A-04.md"
+}

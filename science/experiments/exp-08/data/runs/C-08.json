@@ -1,0 +1,15 @@
+{
+  "runId": "C-08",
+  "experiment": "exp-08",
+  "variant": "C",
+  "variantName": "pd-with-examples",
+  "timestamp": "2026-03-28T23:26:42.354420+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3161,
+  "outputTokens": 1345,
+  "totalTokens": 4506,
+  "costUSD": 0.029658,
+  "outputFile": "data/exp-08/raw/C-08.md"
+}

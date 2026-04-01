@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-07d",
+  "description": "Slot-swap v4: silent artifact \u2014 warning line removed, failure mode structurally hidden",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "I",
+    "J",
+    "C"
+  ],
+  "notes": "exp-07c was confounded by logger.warning('Heartbeat detected lock loss key=%s') in _beat() \u2014 a direct label of the failure mode. exp-07d removes that line and its comment ('Token mismatch: lock expired and was re-acquired by another caller'), leaving only 'if result == 0: return'. The zombie-write failure mode is now structurally hidden again: no code-level hint identifies the lock-expiry scenario. Binary question: does C (P_d Persona + P_p content in Instructions) match I (P_p Persona) or J (P_d baseline)? If C ~ I: few-shot confound is real, content drives detection regardless of slot. If C ~ J: Persona slot is architecturally load-bearing."
+}

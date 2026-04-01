@@ -1,0 +1,15 @@
+{
+  "runId": "A-04",
+  "experiment": "exp-20",
+  "variant": "A",
+  "variantName": "pp-vocabulary",
+  "timestamp": "2026-03-30T11:17:30.539145+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2508,
+  "outputTokens": 2102,
+  "totalTokens": 4610,
+  "costUSD": 0.039054,
+  "outputFile": "experiments/exp-20/output/A-04.md"
+}

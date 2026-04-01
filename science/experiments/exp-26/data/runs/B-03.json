@@ -1,0 +1,15 @@
+{
+  "runId": "B-03",
+  "experiment": "exp-26",
+  "variant": "B",
+  "variantName": "pp-goal-architecture",
+  "timestamp": "2026-03-30T18:42:48.042886+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2451,
+  "outputTokens": 2434,
+  "totalTokens": 4885,
+  "costUSD": 0.043863,
+  "outputFile": "experiments/exp-26/output/B-03.md"
+}

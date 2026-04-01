@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-04b",
+  "description": "Stakes Type redesign \u2014 decoupled scenario context; ORM upgrade framing, IntegrityError symptom",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

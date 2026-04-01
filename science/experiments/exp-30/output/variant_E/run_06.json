@@ -1,0 +1,9 @@
+{
+  "variant": "E",
+  "run": 6,
+  "model": "gemini-2.5-flash",
+  "in_tokens": 2554,
+  "out_tokens": 4096,
+  "cost_usd": 0.0028,
+  "classification": "legitimate"
+}

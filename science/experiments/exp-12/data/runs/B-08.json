@@ -1,0 +1,15 @@
+{
+  "runId": "B-08",
+  "experiment": "exp-12",
+  "variant": "B",
+  "variantName": "2well",
+  "timestamp": "2026-03-29T11:36:06.177049+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3258,
+  "outputTokens": 2257,
+  "totalTokens": 5515,
+  "costUSD": 0.043629,
+  "outputFile": "data/exp-12/raw/B-08.md"
+}

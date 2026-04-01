@@ -1,0 +1,15 @@
+{
+  "runId": "A-02",
+  "experiment": "exp-22",
+  "variant": "A",
+  "variantName": "pp-generic-interrogative-artifact",
+  "timestamp": "2026-03-30T14:00:14.349971+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2585,
+  "outputTokens": 2437,
+  "totalTokens": 5022,
+  "costUSD": 0.04431,
+  "outputFile": "experiments/exp-22/output/A-02.md"
+}

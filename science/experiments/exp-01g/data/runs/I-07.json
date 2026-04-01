@@ -1,0 +1,15 @@
+{
+  "runId": "I-07",
+  "experiment": "exp-01g",
+  "variant": "I",
+  "variantName": "strong-distributed-systems",
+  "timestamp": "2026-03-26T15:00:05.226093+00:00",
+  "provider": "GEMINI",
+  "model": "gemini-2.5-pro",
+  "temperature": 0.5,
+  "inputTokens": 2902,
+  "outputTokens": 1245,
+  "totalTokens": 4147,
+  "costUSD": 0.016078,
+  "outputFile": "data/exp-01g/raw/I-07.md"
+}

@@ -1,0 +1,15 @@
+{
+  "runId": "B-01",
+  "experiment": "exp-21a",
+  "variant": "B",
+  "variantName": "pd-generic-artifact-vocab",
+  "timestamp": "2026-03-30T12:33:50.086240+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2465,
+  "outputTokens": 2186,
+  "totalTokens": 4651,
+  "costUSD": 0.040185,
+  "outputFile": "experiments/exp-21a/output/B-01.md"
+}

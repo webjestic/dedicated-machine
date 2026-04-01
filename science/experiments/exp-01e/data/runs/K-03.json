@@ -1,0 +1,15 @@
+{
+  "runId": "K-03",
+  "experiment": "exp-01e",
+  "variant": "K",
+  "variantName": "strong-explicit-fencing-minimal",
+  "timestamp": "2026-03-26T01:58:26.583111+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2495,
+  "outputTokens": 2500,
+  "totalTokens": 4995,
+  "costUSD": 0.044985,
+  "outputFile": "data/exp-01e/raw/K-03.md"
+}

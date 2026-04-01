@@ -1,0 +1,15 @@
+{
+  "runId": "B-01",
+  "experiment": "exp-03",
+  "variant": "B",
+  "variantName": "weak-instructions-present",
+  "timestamp": "2026-03-26T20:18:58.465851+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 999,
+  "outputTokens": 155,
+  "totalTokens": 1154,
+  "costUSD": 0.005322,
+  "outputFile": "data/exp-03/raw/B-01.md"
+}

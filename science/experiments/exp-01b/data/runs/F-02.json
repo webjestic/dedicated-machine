@@ -1,0 +1,15 @@
+{
+  "runId": "F-02",
+  "experiment": "exp-01b",
+  "variant": "F",
+  "variantName": "weak-minimal-stakes",
+  "timestamp": "2026-03-25T16:31:15.099933+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1063,
+  "outputTokens": 667,
+  "totalTokens": 1730,
+  "costUSD": 0.013194,
+  "outputFile": "data/exp-01b/raw/F-02.md"
+}

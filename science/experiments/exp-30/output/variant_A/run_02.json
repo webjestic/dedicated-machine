@@ -1,0 +1,9 @@
+{
+  "variant": "A",
+  "run": 2,
+  "model": "gemini-2.5-flash",
+  "in_tokens": 2508,
+  "out_tokens": 2234,
+  "cost_usd": 0.0017,
+  "classification": "unclear"
+}

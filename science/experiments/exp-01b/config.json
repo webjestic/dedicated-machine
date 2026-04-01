@@ -1,0 +1,17 @@
+{
+  "experiment": "exp-01b",
+  "description": "Async Event Loop Boundary Violation \u2014 Persona frontier test + Stakes isolation",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ]
+}

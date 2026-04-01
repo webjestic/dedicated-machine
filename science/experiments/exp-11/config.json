@@ -1,0 +1,13 @@
+{
+  "experiment": "exp-11",
+  "description": "Content-as-Installer baseline: cold instance on Dedicated Machine Extended hypothesis \u2014 does structural audit procedure fire without PARC context?",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2000,
+  "runs_per_variant": 5,
+  "variants": [
+    "X0"
+  ],
+  "notes": "Baseline test for content-as-installer open question from exp-06. X0: cold instance, no prior PARC context, Dedicated Machine Extended hypothesis doc only, instruction is 'Discuss this document.' Score by procedure (did structural audit algorithm fire?) not by output content. P_p = identifies weakest evidentiary support + proposes distinguishing test. P_d = general engagement, agrees/disagrees, no falsification structure. 5 runs to account for temperature variance. See SCORING.md."
+}

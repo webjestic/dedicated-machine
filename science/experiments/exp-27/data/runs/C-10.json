@@ -1,0 +1,15 @@
+{
+  "runId": "C-10",
+  "experiment": "exp-27",
+  "variant": "C",
+  "variantName": "pp-gap-detection",
+  "timestamp": "2026-03-30T22:25:17.517770+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 118,
+  "outputTokens": 4000,
+  "totalTokens": 4118,
+  "costUSD": 0.060354,
+  "outputFile": "experiments/exp-27/output/C-10.md"
+}

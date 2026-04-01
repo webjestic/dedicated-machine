@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-28b",
+  "description": "Horizon Blindness / Gap Detection \u2014 rate limiter artifact. Tests whether gap-detection satisfaction condition surfaces production requirements on an underspecified prompt where the shallow path is genuinely shallow. Calibration anchor: C (P_d baseline) must floor at mean <= 3/10.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 4000,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "runs_per_variant": 10
+}

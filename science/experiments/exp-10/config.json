@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-10",
+  "description": "Phase 6 \u2014 Semantic Density: dense compound P_p vs. diluted P_p on invisible timing failure",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "notes": "Phase 6 semantic density hypothesis. Artifact: order processor + payment client. Failure: ORDER_LOCK_TTL=60 < worst-case payment.charge() duration of 100s (3 retries \u00d7 30s + 2 \u00d7 5s backoff). Invisible at code level \u2014 cross-file arithmetic, no dead-end branch. A (dense P_p): fused compound identity with compulsion language. B (diluted P_p): same semantic content in 5-6 separate unfused statements, no compulsion language. C (P_d baseline). Primary question: A > B on detection rate? Secondary: B > C?"
+}

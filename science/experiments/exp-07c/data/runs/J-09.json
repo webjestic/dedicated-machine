@@ -1,0 +1,15 @@
+{
+  "runId": "J-09",
+  "experiment": "exp-07c",
+  "variant": "J",
+  "variantName": "persona-slot-pd-baseline",
+  "timestamp": "2026-03-27T18:14:46.968775+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2993,
+  "outputTokens": 2281,
+  "totalTokens": 5274,
+  "costUSD": 0.043194,
+  "outputFile": "data/exp-07c/raw/J-09.md"
+}

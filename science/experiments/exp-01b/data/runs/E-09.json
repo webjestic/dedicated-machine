@@ -1,0 +1,15 @@
+{
+  "runId": "E-09",
+  "experiment": "exp-01b",
+  "variant": "E",
+  "variantName": "strong-minimal-stakes",
+  "timestamp": "2026-03-25T16:29:55.368468+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1296,
+  "outputTokens": 837,
+  "totalTokens": 2133,
+  "costUSD": 0.016443,
+  "outputFile": "data/exp-01b/raw/E-09.md"
+}

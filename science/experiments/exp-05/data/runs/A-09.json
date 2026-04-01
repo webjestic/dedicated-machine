@@ -1,0 +1,15 @@
+{
+  "runId": "A-09",
+  "experiment": "exp-05",
+  "variant": "A",
+  "variantName": "pcsieftr-pp-task-stakes",
+  "timestamp": "2026-03-27T12:18:54.248901+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 715,
+  "outputTokens": 2500,
+  "totalTokens": 3215,
+  "costUSD": 0.039645,
+  "outputFile": "data/exp-05/raw/A-09.md"
+}

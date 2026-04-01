@@ -1,0 +1,14 @@
+{
+  "experiment": "exp-21a",
+  "description": "Vocabulary in artifact \u2014 tests whether vocabulary works anywhere in context without Persona/Instructions slot",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "runs_per_variant": 10
+}

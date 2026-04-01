@@ -1,0 +1,15 @@
+{
+  "runId": "A-03",
+  "experiment": "exp-03",
+  "variant": "A",
+  "variantName": "strong-pp-instructions-present",
+  "timestamp": "2026-03-26T20:16:58.175459+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1239,
+  "outputTokens": 857,
+  "totalTokens": 2096,
+  "costUSD": 0.016572,
+  "outputFile": "data/exp-03/raw/A-03.md"
+}

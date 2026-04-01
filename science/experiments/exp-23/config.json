@@ -1,0 +1,14 @@
+{
+  "experiment": "exp-23",
+  "description": "Kleppmann mechanism vocabulary slot-swap \u2014 GC pause chain vocabulary in Persona vs Instructions (clean H1/H2 test at mechanism-level specificity)",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "runs_per_variant": 10
+}

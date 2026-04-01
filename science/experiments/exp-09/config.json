@@ -1,0 +1,16 @@
+{
+  "experiment": "exp-09",
+  "description": "Clean slot-swap falsification: P_p vs Instructions-slot domain content on unhinted artifact",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "notes": "Clean falsification of the few-shot confound. Artifact: distributed job executor PR (see ARTIFACT.md) \u2014 PR description covers happy path only; failure mode (silent zombie-write on claim renewal failure) not named anywhere; discovery requires simulating process pause. Four variants: A (P_p baseline), B (P_d baseline), C (P_d + Instructions domain content), D (P_p + Instructions domain content). Primary question: does C match A or B? C~A = Instructions-slot domain content substitutes for Persona even on clean artifact. C~B = Persona slot is load-bearing; Instructions compensation requires artifact-level hints. Secondary: D>A on Tier 1.0 = Instructions domain content extends P_p ceiling; D\u2248A = P_p already saturated."
+}

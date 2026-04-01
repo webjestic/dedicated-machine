@@ -1,0 +1,15 @@
+{
+  "runId": "A-07",
+  "experiment": "exp-04b",
+  "variant": "A",
+  "variantName": "strong-pp-task-stakes",
+  "timestamp": "2026-03-27T00:36:33.634364+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1734,
+  "outputTokens": 1320,
+  "totalTokens": 3054,
+  "costUSD": 0.025002,
+  "outputFile": "data/exp-04b/raw/A-07.md"
+}

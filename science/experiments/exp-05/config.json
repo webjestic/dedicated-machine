@@ -1,0 +1,13 @@
+{
+  "experiment": "exp-05",
+  "description": "PCSIEFTR vs CO-STAR head-to-head \u2014 global audit middleware blocking await; compliance-framing trap",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B"
+  ]
+}

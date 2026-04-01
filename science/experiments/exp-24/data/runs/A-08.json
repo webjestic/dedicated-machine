@@ -1,0 +1,15 @@
+{
+  "runId": "A-08",
+  "experiment": "exp-24",
+  "variant": "A",
+  "variantName": "pp-generic-assertional-mechanism",
+  "timestamp": "2026-03-30T16:37:02.484528+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2468,
+  "outputTokens": 1699,
+  "totalTokens": 4167,
+  "costUSD": 0.032889,
+  "outputFile": "experiments/exp-24/output/A-08.md"
+}

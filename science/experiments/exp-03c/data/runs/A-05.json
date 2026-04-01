@@ -1,0 +1,15 @@
+{
+  "runId": "A-05",
+  "experiment": "exp-03c",
+  "variant": "A",
+  "variantName": "strong-pp-prohibition",
+  "timestamp": "2026-03-27T10:41:56.745588+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1476,
+  "outputTokens": 146,
+  "totalTokens": 1622,
+  "costUSD": 0.006618,
+  "outputFile": "data/exp-03c/raw/A-05.md"
+}

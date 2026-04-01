@@ -1,0 +1,15 @@
+{
+  "runId": "A-03",
+  "experiment": "exp-12",
+  "variant": "A",
+  "variantName": "1well-dense",
+  "timestamp": "2026-03-29T11:24:14.132827+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3265,
+  "outputTokens": 2141,
+  "totalTokens": 5406,
+  "costUSD": 0.04191,
+  "outputFile": "data/exp-12/raw/A-03.md"
+}

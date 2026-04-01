@@ -1,0 +1,15 @@
+{
+  "runId": "O-03",
+  "experiment": "exp-01f",
+  "variant": "O",
+  "variantName": "strong-burned-minimal-context",
+  "timestamp": "2026-03-26T13:50:28.196317+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2731,
+  "outputTokens": 1390,
+  "totalTokens": 4121,
+  "costUSD": 0.029043,
+  "outputFile": "data/exp-01f/raw/O-03.md"
+}

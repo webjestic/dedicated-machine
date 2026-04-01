@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-07",
+  "description": "Slot-swap: Persona-slot vs Instructions-slot for procedural distributed systems content",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "I",
+    "J",
+    "C"
+  ],
+  "notes": "Slot-swap experiment: falsification test for the consideration-set mechanism. Variant I = original P_p (procedural content in Persona slot, 10/10 in exp-01e). Variant J = original P_d baseline (generic Persona, 0/10 in exp-01e). Variant C = slot-swap (generic Persona + same procedural content moved to Instructions slot). If C matches I: Persona slot is not special; content drives detection. If C matches J: identity framing matters; the slot is load-bearing. Same zombie-write scenario, same binary criterion, same model and temperature as exp-01e."
+}

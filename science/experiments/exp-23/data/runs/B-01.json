@@ -1,0 +1,15 @@
+{
+  "runId": "B-01",
+  "experiment": "exp-23",
+  "variant": "B",
+  "variantName": "pd-mechanism-vocab-instructions",
+  "timestamp": "2026-03-30T14:07:38.031820+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2467,
+  "outputTokens": 1625,
+  "totalTokens": 4092,
+  "costUSD": 0.031776,
+  "outputFile": "experiments/exp-23/output/B-01.md"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-01",
+  "description": "Edge Case Decisions \u2014 Persona as judgment carrier",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

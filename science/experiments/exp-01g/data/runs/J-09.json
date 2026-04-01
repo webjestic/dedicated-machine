@@ -1,0 +1,15 @@
+{
+  "runId": "J-09",
+  "experiment": "exp-01g",
+  "variant": "J",
+  "variantName": "weak-generic-rich-context",
+  "timestamp": "2026-03-26T15:10:12.582771+00:00",
+  "provider": "GEMINI",
+  "model": "gemini-2.5-pro",
+  "temperature": 0.5,
+  "inputTokens": 2390,
+  "outputTokens": 1029,
+  "totalTokens": 3419,
+  "costUSD": 0.013278,
+  "outputFile": "data/exp-01g/raw/J-09.md"
+}

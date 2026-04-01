@@ -1,0 +1,15 @@
+{
+  "runId": "A-09",
+  "experiment": "exp-19",
+  "variant": "A",
+  "variantName": "pp-persona",
+  "timestamp": "2026-03-30T01:28:21.780270+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2576,
+  "outputTokens": 2500,
+  "totalTokens": 5076,
+  "costUSD": 0.045228,
+  "outputFile": "experiments/exp-19/output/A-09.md"
+}

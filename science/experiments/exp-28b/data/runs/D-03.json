@@ -1,0 +1,15 @@
+{
+  "runId": "D-03",
+  "experiment": "exp-28b",
+  "variant": "D",
+  "variantName": "pp-gap-detection-mike",
+  "timestamp": "2026-03-31T02:22:33.905762+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 132,
+  "outputTokens": 3999,
+  "totalTokens": 4131,
+  "costUSD": 0.060381,
+  "outputFile": "experiments/exp-28b/output/D-03.md"
+}

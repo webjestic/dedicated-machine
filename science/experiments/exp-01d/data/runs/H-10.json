@@ -1,0 +1,15 @@
+{
+  "runId": "H-10",
+  "experiment": "exp-01d",
+  "variant": "H",
+  "variantName": "weak-persona-rich-context",
+  "timestamp": "2026-03-25T19:50:28.840367+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1019,
+  "outputTokens": 1103,
+  "totalTokens": 2122,
+  "costUSD": 0.019602,
+  "outputFile": "data/exp-01d/raw/H-10.md"
+}

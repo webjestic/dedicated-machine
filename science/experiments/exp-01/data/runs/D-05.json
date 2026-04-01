@@ -1,0 +1,15 @@
+{
+  "runId": "D-05",
+  "experiment": "exp-01",
+  "variant": "D",
+  "variantName": "weak-exhaustive",
+  "timestamp": "2026-03-25T15:19:32.791337+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 690,
+  "outputTokens": 1582,
+  "totalTokens": 2272,
+  "costUSD": 0.0258,
+  "outputFile": "data/exp-01/raw/D-05.md"
+}

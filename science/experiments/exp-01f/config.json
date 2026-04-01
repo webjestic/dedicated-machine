@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-01f",
+  "description": "LoL Carve-Out Trap \u2014 Persona generalization to legal contract review",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 8000,
+  "runs_per_variant": 10,
+  "variants": [
+    "M",
+    "N",
+    "O",
+    "P"
+  ]
+}

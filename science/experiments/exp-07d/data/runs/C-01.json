@@ -1,0 +1,15 @@
+{
+  "runId": "C-01",
+  "experiment": "exp-07d",
+  "variant": "C",
+  "variantName": "instructions-slot-swap",
+  "timestamp": "2026-03-28T03:36:34.613405+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3012,
+  "outputTokens": 2500,
+  "totalTokens": 5512,
+  "costUSD": 0.046536,
+  "outputFile": "data/exp-07d/raw/C-01.md"
+}

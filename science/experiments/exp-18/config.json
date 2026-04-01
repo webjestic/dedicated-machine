@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-18",
+  "description": "Phase 7 \u2014 Clean Slot-Swap. Identical procedural content in Persona slot (A) vs. Instructions slot (B) vs. absent (C). Tests whether the Persona slot is architecturally load-bearing or whether the same content produces equivalent effects in any slot.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "notes": "Clean Slot-Swap. The same procedural reasoning content appears in:\n  A \u2014 Persona slot: embedded as identity ('you review payment infrastructure by tracing the full lock lifecycle...')\n  B \u2014 Instructions slot: stated as explicit directives ('when reviewing this code, trace the lock lifecycle...')\n  C \u2014 Neither: P_d baseline with generic instructions\nArtifact: modified order processor \u2014 TTL comment ('covers typical payment round-trip') removed. Failure mode requires cross-file arithmetic tracing only: ORDER_LOCK_TTL=60s vs. PaymentClient worst-case duration (3\u00d7REQUEST_TIMEOUT=30s + 2\u00d7RETRY_BACKOFF=5s = 100s). No code-visible hint anywhere.\nPrimary metric: binary detection of the TTL arithmetic gap (explicit identification that 60s < 100s worst-case creates a concurrent-worker window).\nSecondary metric: consideration-set breadth (output token volume).\nIf A >> B \u2248 C: slot carries the effect \u2014 consideration-set mechanism is architecturally real; Persona slot installation of identity is what matters, not just the content.\nIf A \u2248 B >> C: content carries the effect regardless of slot \u2014 the paper's central mechanistic claim reduces to a finding about implicit CoT placement.\nIf A >> B >> C: slot adds something beyond the content; partial slot effect."
+}

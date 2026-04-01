@@ -1,0 +1,16 @@
+{
+  "experiment": "exp-17",
+  "description": "Phase 6 \u2014 Semantic Density: Compulsion-as-Reflex Isolation. Holds domain vocabulary constant, varies only the linguistic register. Tests whether the compulsion-as-reflex framing ('constitutionally unable to review X without tracing Y') is a portable P_p amplifier independent of domain vocabulary.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "notes": "Compulsion-as-Reflex Isolation. Four variants:\n  A \u2014 Compulsion-as-reflex + domain vocabulary: 'constitutionally unable to review a locking implementation without tracing the full lifecycle of every lock...'\n  B \u2014 Trait/habit description + same domain vocabulary: same content (fault-tolerant payment infra, lock lifecycle, TTL, concurrent paths), different register (methodical/thorough rather than compelled)\n  C \u2014 Compulsion-as-reflex, domain vocabulary stripped: same reflex structure but no distributed-systems vocabulary (generic shared-state/timeout/failure language)\n  D \u2014 P_d baseline: same as exp-15 C\nArtifact: same order processor with Redis lock (ORDER_LOCK_TTL=60s vs PaymentClient REQUEST_TIMEOUT=30s \u00d7 3 + RETRY_BACKOFF=5s \u00d7 2 = 100s worst-case)\nIf A >> B: reflex framing does work beyond domain vocabulary \u2014 the compulsion structure is the operative variable.\nIf A \u2248 B: domain vocabulary is sufficient; reflex framing is incidental.\nIf C >> D: reflex structure produces amplification even without domain vocabulary.\nIf C \u2248 D: reflex structure alone (no domain vocabulary) collapses to P_d floor \u2014 domain vocabulary is required.\nMetric: consideration-set breadth (mean output tokens, ceiling hit rate) \u2014 same as Phase 6."
+}

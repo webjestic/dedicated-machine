@@ -1,0 +1,14 @@
+{
+  "experiment": "exp-24",
+  "description": "Assertional Mechanism test \u2014 same causal chain as exp-22 interrogative, placed as PR summary assertion. Isolates pragmatic force from vocabulary specificity confound.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "runs_per_variant": 10
+}

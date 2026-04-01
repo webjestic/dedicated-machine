@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-03c",
+  "description": "Constraint Satisfaction Trap (calibration) \u2014 mass assignment; no field anchor in PR description",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

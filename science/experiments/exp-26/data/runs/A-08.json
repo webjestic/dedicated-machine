@@ -1,0 +1,15 @@
+{
+  "runId": "A-08",
+  "experiment": "exp-26",
+  "variant": "A",
+  "variantName": "pp-prohibition",
+  "timestamp": "2026-03-30T18:39:22.585597+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2445,
+  "outputTokens": 2405,
+  "totalTokens": 4850,
+  "costUSD": 0.04341,
+  "outputFile": "experiments/exp-26/output/A-08.md"
+}

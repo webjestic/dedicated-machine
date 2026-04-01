@@ -1,0 +1,15 @@
+{
+  "runId": "A-10",
+  "experiment": "exp-02",
+  "variant": "A",
+  "variantName": "strong-pp-identity-stakes-contract",
+  "timestamp": "2026-03-26T19:16:51.410096+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2864,
+  "outputTokens": 2193,
+  "totalTokens": 5057,
+  "costUSD": 0.041487,
+  "outputFile": "data/exp-02/raw/A-10.md"
+}

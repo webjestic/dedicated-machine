@@ -1,0 +1,15 @@
+{
+  "runId": "D-10",
+  "experiment": "exp-02",
+  "variant": "D",
+  "variantName": "pd-no-stakes-contract",
+  "timestamp": "2026-03-26T19:43:03.649756+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2602,
+  "outputTokens": 2361,
+  "totalTokens": 4963,
+  "costUSD": 0.043221,
+  "outputFile": "data/exp-02/raw/D-10.md"
+}

@@ -1,0 +1,15 @@
+{
+  "runId": "A-07",
+  "experiment": "exp-10",
+  "variant": "A",
+  "variantName": "dense-pp",
+  "timestamp": "2026-03-29T02:38:09.581461+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3247,
+  "outputTokens": 1963,
+  "totalTokens": 5210,
+  "costUSD": 0.039186,
+  "outputFile": "data/exp-10/raw/A-07.md"
+}

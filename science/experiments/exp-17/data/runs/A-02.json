@@ -1,0 +1,15 @@
+{
+  "runId": "A-02",
+  "experiment": "exp-17",
+  "variant": "A",
+  "variantName": "compulsion-domain",
+  "timestamp": "2026-03-29T22:01:40.459912+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3276,
+  "outputTokens": 2500,
+  "totalTokens": 5776,
+  "costUSD": 0.047328,
+  "outputFile": "data/exp-17/raw/A-02.md"
+}

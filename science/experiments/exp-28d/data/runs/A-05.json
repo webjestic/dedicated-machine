@@ -1,0 +1,16 @@
+{
+  "runId": "A-05",
+  "experiment": "exp-28d",
+  "variant": "A",
+  "variantName": "pipeline",
+  "timestamp": "2026-03-31T16:42:18.248159+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 8592,
+  "outputTokens": 8000,
+  "totalTokens": 16592,
+  "costUSD": 0.145776,
+  "outputFile": "experiments/exp-28d/output/A-05.md",
+  "step": "agent2-implement"
+}

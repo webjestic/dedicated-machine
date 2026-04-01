@@ -1,0 +1,15 @@
+{
+  "runId": "B-01",
+  "experiment": "exp-01",
+  "variant": "B",
+  "variantName": "strong-exhaustive",
+  "timestamp": "2026-03-25T15:08:16.809598+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 916,
+  "outputTokens": 1878,
+  "totalTokens": 2794,
+  "costUSD": 0.030918,
+  "outputFile": "data/exp-01/raw/B-01.md"
+}

@@ -1,0 +1,15 @@
+{
+  "runId": "C-01",
+  "experiment": "exp-13",
+  "variant": "C",
+  "variantName": "3well-orthogonal",
+  "timestamp": "2026-03-29T12:38:38.930575+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3266,
+  "outputTokens": 2124,
+  "totalTokens": 5390,
+  "costUSD": 0.041658,
+  "outputFile": "data/exp-13/raw/C-01.md"
+}

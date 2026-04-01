@@ -1,0 +1,15 @@
+{
+  "runId": "B-08",
+  "experiment": "exp-03c",
+  "variant": "B",
+  "variantName": "weak-prohibition",
+  "timestamp": "2026-03-27T10:43:31.670748+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1126,
+  "outputTokens": 158,
+  "totalTokens": 1284,
+  "costUSD": 0.005748,
+  "outputFile": "data/exp-03c/raw/B-08.md"
+}

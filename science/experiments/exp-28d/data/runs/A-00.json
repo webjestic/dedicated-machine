@@ -1,0 +1,17 @@
+{
+  "runId": "A-00",
+  "experiment": "exp-28d",
+  "variant": "A",
+  "variantName": "pipeline",
+  "timestamp": "2026-03-31T16:33:00.000000+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 737,
+  "outputTokens": 8000,
+  "totalTokens": 8737,
+  "costUSD": 0.122211,
+  "outputFile": "experiments/exp-28d/output/A-design-doc.md",
+  "step": "agent1-design",
+  "note": "record reconstructed from terminal output after A-01 collision"
+}

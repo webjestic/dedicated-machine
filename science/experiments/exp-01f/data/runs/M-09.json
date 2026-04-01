@@ -1,0 +1,15 @@
+{
+  "runId": "M-09",
+  "experiment": "exp-01f",
+  "variant": "M",
+  "variantName": "strong-burned-rich-context",
+  "timestamp": "2026-03-26T13:39:16.415876+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2825,
+  "outputTokens": 1968,
+  "totalTokens": 4793,
+  "costUSD": 0.037995,
+  "outputFile": "data/exp-01f/raw/M-09.md"
+}

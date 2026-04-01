@@ -1,0 +1,15 @@
+{
+  "runId": "B-08",
+  "experiment": "exp-02",
+  "variant": "B",
+  "variantName": "strong-pp-no-stakes-contract",
+  "timestamp": "2026-03-26T19:22:21.943740+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2825,
+  "outputTokens": 1751,
+  "totalTokens": 4576,
+  "costUSD": 0.03474,
+  "outputFile": "data/exp-02/raw/B-08.md"
+}

@@ -1,0 +1,14 @@
+{
+  "experiment": "exp-21b",
+  "description": "Less directive vocabulary slot-swap \u2014 tests whether slot matters when vocabulary provides orientation without naming the failure mode or fix",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "runs_per_variant": 10
+}

@@ -1,0 +1,15 @@
+{
+  "runId": "A-01",
+  "experiment": "exp-09",
+  "variant": "A",
+  "variantName": "pp-no-extras",
+  "timestamp": "2026-03-29T01:28:35.553890+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2998,
+  "outputTokens": 2355,
+  "totalTokens": 5353,
+  "costUSD": 0.044319,
+  "outputFile": "data/exp-09/raw/A-01.md"
+}

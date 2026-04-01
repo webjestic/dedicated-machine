@@ -1,0 +1,15 @@
+{
+  "runId": "N-08",
+  "experiment": "exp-01f",
+  "variant": "N",
+  "variantName": "weak-generic-rich-context",
+  "timestamp": "2026-03-26T13:47:02.991139+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2577,
+  "outputTokens": 2386,
+  "totalTokens": 4963,
+  "costUSD": 0.043521,
+  "outputFile": "data/exp-01f/raw/N-08.md"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-28c",
+  "description": "SRE Bridge \u2014 tests whether SRE P_p + gap-detection crosses the operational horizon (Tier 2: alerting, runbooks, load testing, health checks) that engineering P_p cannot reach. Review task framing; pre-built rate limiter artifact injected into all variant prompts.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 4000,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "runs_per_variant": 10,
+  "artifact": "artifacts/rate-limiter.js"
+}

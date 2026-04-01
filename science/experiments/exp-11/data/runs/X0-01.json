@@ -1,0 +1,15 @@
+{
+  "runId": "X0-01",
+  "experiment": "exp-11",
+  "variant": "X0",
+  "variantName": "cold",
+  "timestamp": "2026-03-29T10:49:05.652899+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 1894,
+  "outputTokens": 1604,
+  "totalTokens": 3498,
+  "costUSD": 0.029742,
+  "outputFile": "data/exp-11/raw/X0-01.md"
+}

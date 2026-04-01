@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-03",
+  "description": "Constraint Satisfaction Trap \u2014 Persona vs. Instructions hierarchy; override behavior classification",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

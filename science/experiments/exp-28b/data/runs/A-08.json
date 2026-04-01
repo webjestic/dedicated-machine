@@ -1,0 +1,15 @@
+{
+  "runId": "A-08",
+  "experiment": "exp-28b",
+  "variant": "A",
+  "variantName": "pp-task-scoped",
+  "timestamp": "2026-03-31T02:06:29.331510+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 57,
+  "outputTokens": 3999,
+  "totalTokens": 4056,
+  "costUSD": 0.060156,
+  "outputFile": "experiments/exp-28b/output/A-08.md"
+}

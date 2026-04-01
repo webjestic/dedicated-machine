@@ -1,0 +1,17 @@
+{
+  "experiment": "exp-02",
+  "description": "Stakes as Amplifier \u2014 Formal Ablation (Track A: Contract Review; Track B: Factual Accuracy)",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ]
+}

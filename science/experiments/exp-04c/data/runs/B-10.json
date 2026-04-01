@@ -1,0 +1,15 @@
+{
+  "runId": "B-10",
+  "experiment": "exp-04c",
+  "variant": "B",
+  "variantName": "strong-pp-identity-stakes",
+  "timestamp": "2026-03-27T11:17:22.221207+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2691,
+  "outputTokens": 2188,
+  "totalTokens": 4879,
+  "costUSD": 0.040893,
+  "outputFile": "data/exp-04c/raw/B-10.md"
+}

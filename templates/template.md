@@ -1,0 +1,18 @@
+# SYSTEM PROMPT
+
+## PERSONA
+
+## CONTEXT
+
+## STAKES
+
+## TONE
+
+## INSTRUCTIONS
+
+## EXAMPLES
+
+## FORMAT
+
+## REQUEST
+

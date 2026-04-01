@@ -1,0 +1,14 @@
+{
+  "experiment": "exp-27",
+  "description": "Horizon Blindness / Gap Detection \u2014 tests whether P_p with gap-detection satisfaction condition surfaces unsolicited production requirements on an underspecified blockchain prompt.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 4000,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "runs_per_variant": 10
+}

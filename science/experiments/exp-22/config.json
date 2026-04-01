@@ -1,0 +1,14 @@
+{
+  "experiment": "exp-22",
+  "description": "Interrogative artifact vocabulary \u2014 tests whether naming the Bug 2 causal chain as an open reviewer question drives detection (H2 test)",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "runs_per_variant": 10
+}

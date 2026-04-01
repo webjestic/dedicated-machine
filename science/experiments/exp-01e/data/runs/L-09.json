@@ -1,0 +1,15 @@
+{
+  "runId": "L-09",
+  "experiment": "exp-01e",
+  "variant": "L",
+  "variantName": "strong-kleppmann-minimal-context",
+  "timestamp": "2026-03-26T02:11:10.926669+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2579,
+  "outputTokens": 2076,
+  "totalTokens": 4655,
+  "costUSD": 0.038877,
+  "outputFile": "data/exp-01e/raw/L-09.md"
+}

@@ -1,0 +1,16 @@
+{
+  "experiment": "exp-12",
+  "description": "Phase 6 \u2014 Semantic Density: Well Count Test. One fused compound well (A) vs. two distinct wells (B) vs. three distinct wells (C) vs. P_d baseline (D). Same artifact as exp-10b.",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "notes": "Well Count Test. Hypothesis: consideration-set depth is a function of semantic well count in the Persona \u2014 1 fused compound well > 2 unfused wells > 3 unfused wells > P_d. Token count held roughly equal across A/B/C. Primary metric: issue sections/run and ceiling rate. A replicates exp-10b A (dense P_p). D replicates exp-10b C (P_d baseline). B and C introduce new well-count conditions."
+}

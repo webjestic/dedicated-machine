@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-03b",
+  "description": "Constraint Satisfaction Trap (redesign) \u2014 mass assignment; prohibition instruction vs. condition instruction",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 2500,
+  "runs_per_variant": 10,
+  "variants": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

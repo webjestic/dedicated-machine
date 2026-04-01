@@ -1,0 +1,15 @@
+{
+  "runId": "B-03",
+  "experiment": "exp-28d",
+  "variant": "B",
+  "variantName": "single-pass-D",
+  "timestamp": "2026-03-31T16:58:20.170800+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 132,
+  "outputTokens": 7999,
+  "totalTokens": 8131,
+  "costUSD": 0.120381,
+  "outputFile": "experiments/exp-28d/output/B-03.md"
+}

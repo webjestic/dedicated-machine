@@ -1,0 +1,188 @@
+{
+    "CLAUDE": {
+        "source": "https://platform.claude.com/docs/en/about-claude/models/overview",
+        "models": [
+            {
+                "model": "claude-opus-4-6",
+                "max_tokens": 32000,
+                "inprice": "$5 / MTok",
+                "incfactor": 0.000005,
+                "outprice": "$25 / MTok",
+                "outfactor": 0.000025
+            },
+            {
+                "model": "claude-sonnet-4-6",
+                "max_tokens": 64000,
+                "inprice": "$3 / MTok",
+                "incfactor": 0.000003,
+                "outprice": "$15 / MTok",
+                "outfactor": 0.000015
+            },
+            {
+                "model": "claude-haiku-4-5",
+                "max_tokens": 8192,
+                "inprice": "$1 / MTok",
+                "incfactor": 0.000001,
+                "outprice": "$5 / MTok",
+                "outfactor": 0.000005
+            }
+        ]
+    },
+    "GEMINI": {
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "models": [
+            {
+                "model": "gemini-2.5-pro",
+                "max_tokens": 65536,
+                "inprice": "$1.25 / MTok",
+                "incfactor": 0.00000125,
+                "outprice": "$10.00 / MTok",
+                "outfactor": 0.00001,
+                "thinkingprice": "$3.50 / MTok",
+                "thinkingfactor": 0.0000035
+            },
+            {
+                "model": "gemini-2.5-flash",
+                "max_tokens": 65536,
+                "inprice": "$0.30 / MTok",
+                "incfactor": 0.0000003,
+                "outprice": "$2.50 / MTok",
+                "outfactor": 0.0000025,
+                "thinkingprice": "$3.50 / MTok",
+                "thinkingfactor": 0.0000035
+            },
+            {
+                "model": "gemini-2.5-flash-lite",
+                "max_tokens": 65536,
+                "inprice": "$0.10 / MTok",
+                "incfactor": 0.0000001,
+                "outprice": "$0.40 / MTok",
+                "outfactor": 0.0000004
+            },
+            {
+                "model": "gemini-3.1-pro-preview",
+                "max_tokens": 65536,
+                "inprice": "$2.00 / MTok",
+                "incfactor": 0.000002,
+                "outprice": "$12.00 / MTok",
+                "outfactor": 0.000012
+            },
+            {
+                "model": "gemini-3-flash-preview",
+                "max_tokens": 65536,
+                "inprice": "$0.50 / MTok",
+                "incfactor": 0.0000005,
+                "outprice": "$3.00 / MTok",
+                "outfactor": 0.000003
+            }
+        ]
+    },
+    "PERPLEXITY": {
+        "source": "https://docs.perplexity.ai/docs/getting-started/pricing",
+        "models": [
+            {
+                "model": "sonar-pro",
+                "max_tokens": 8192,
+                "inprice": "$3.00 / MTok",
+                "incfactor": 0.000003,
+                "outprice": "$15.00 / MTok",
+                "outfactor": 0.000015
+            },
+            {
+                "model": "sonar",
+                "max_tokens": 8192,
+                "inprice": "$1 / MTok",
+                "incfactor": 0.000001,
+                "outprice": "$1 / MTok",
+                "outfactor": 0.000001
+            }
+        ]
+    },
+    "XAPI": {
+        "source": "https://console.x.ai/",
+        "models": [
+            {
+                "model": "xai/grok-3-mini",
+                "max_tokens": 32768,
+                "inprice": "$0.30 / MTok",
+                "incfactor": 0.0000003,
+                "outprice": "$0.5 / MTok",
+                "outfactor": 0.0000005
+            },
+            {
+                "model": "grok-4-1-fast-reasoning",
+                "max_tokens": 32768,
+                "inprice": "$0.20 / MTok",
+                "incfactor": 0.0000002,
+                "outprice": "$0.5 / MTok",
+                "outfactor": 0.0000005
+            },
+            {
+                "model": "grok-4-1-fast-non-reasoning",
+                "max_tokens": 32768,
+                "inprice": "$0.20 / MTok",
+                "incfactor": 0.0000002,
+                "outprice": "$0.5 / MTok",
+                "outfactor": 0.0000005
+            }
+        ]
+    },
+    "OPENAI": {
+        "source": "https://openai.com/api/pricing/",
+        "models": [
+            {
+                "model": "gpt-5.4-pro",
+                "max_tokens": 32768,
+                "inprice": "$60 / MTok",
+                "incfactor": 0.00006,
+                "outprice": "$270 / MTok",
+                "outfactor": 0.00027
+            },
+            {
+                "model": "gpt-5.4",
+                "max_tokens": 32768,
+                "inprice": "$5 / MTok",
+                "incfactor": 0.00005,
+                "outprice": "$22.50 / MTok",
+                "outfactor": 0.000225
+            },
+            {
+                "model": "gpt-5.4-mini",
+                "max_tokens": 16384,
+                "inprice": "$0.75 / MTok",
+                "incfactor": 0.0000075,
+                "outprice": "$4.50 / MTok",
+                "outfactor": 0.000045
+            },
+            {
+                "model": "gpt-5.4-nano",
+                "max_tokens": 16384,
+                "inprice": "$0.20 / MTok",
+                "incfactor": 0.000002,
+                "outprice": "$1.25 / MTok",
+                "outfactor": 0.0000125
+            }
+        ]
+    },
+    "DEEPSEEK": {
+        "source": "https://api-docs.deepseek.com/quick_start/pricing",
+        "models": [
+            {
+                "model": "deepseek-chat",
+                "max_tokens": 8192,
+                "inprice": "$0.28 / MTok",
+                "incfactor": 0.00000028,
+                "outprice": "$0.42 / MTok",
+                "outfactor": 0.00000042
+            },
+            {
+                "model": "deepseek-reasoner",
+                "max_tokens": 8192,
+                "inprice": "$0.28 / MTok",
+                "incfactor": 0.00000028,
+                "outprice": "$0.42 / MTok",
+                "outfactor": 0.00000042
+            }
+        ]
+    }
+}
