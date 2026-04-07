@@ -1,0 +1,15 @@
+{
+  "runId": "B-09",
+  "experiment": "exp-1001b",
+  "variant": "B",
+  "variantName": "weak-persona-stakes",
+  "timestamp": "2026-04-06T19:12:56.187343+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 316,
+  "outputTokens": 3000,
+  "totalTokens": 3316,
+  "costUSD": 0.045948,
+  "outputFile": "data/raw/B-09.md"
+}

@@ -1,0 +1,23 @@
+{
+  "runId": "run-06",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:22:38.316081+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2107,
+    "costUSD": 0.04278,
+    "outputFile": "data/raw/L1-06.md"
+  },
+  "layer2": {
+    "inputTokens": 4138,
+    "outputTokens": 3800,
+    "costUSD": 0.069414,
+    "outputFile": "data/raw/L2-06.md"
+  },
+  "handoffExtracted": "This review traced the full lock acquisition, renewal, and release path under concurrent execution, including process-pause scenarios and Redis error conditions. The critical finding is that heartbeat-detected lock loss does not propagate to the main execution thread: a process that loses its lock d...",
+  "totalInputTokens": 7863,
+  "totalOutputTokens": 5907,
+  "totalCostUSD": 0.112194
+}

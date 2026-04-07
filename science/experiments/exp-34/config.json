@@ -1,0 +1,12 @@
+{
+  "experiment": "exp-34",
+  "description": "Mechanism Decoy — does vocabulary install reasoning or point GPS coordinates?",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 3000,
+  "runs_per_variant": 10,
+  "variants": ["A", "B", "C"],
+  "artifact": "../exp-09/ARTIFACT.md",
+  "notes": "Variant A is the control (replicates exp-09 A at n=5 — run with --variant A). Run B and C at n=10. Reference exp-09 Variant A (n=40, 1/10 Tier 1.0) as the full control baseline."
+}

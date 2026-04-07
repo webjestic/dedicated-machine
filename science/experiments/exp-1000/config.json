@@ -1,0 +1,12 @@
+{
+  "experiment": "exp-1000",
+  "description": "Interleaved author/voice pipeline — one author rule + one voice rule per agent, A through I",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "max_tokens": 8000,
+  "runs_per_variant": 1,
+  "variants": ["A", "B", "C", "D", "E", "F", "G", "H", "I"],
+  "artifact": "ARTIFACT.md",
+  "pipeline": [["A", "B", "C", "D", "E", "F", "G", "H", "I"]]
+}

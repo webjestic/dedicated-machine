@@ -1,0 +1,163 @@
+{
+  "experiment": "exp-1000",
+  "totalRuns": 9,
+  "totalInputTokens": 22945,
+  "totalOutputTokens": 17423,
+  "totalTokens": 40368,
+  "totalCostUSD": 0.33018,
+  "byVariant": {
+    "A": {
+      "variantName": "foundation",
+      "runs": 1,
+      "inputTokens": 3095,
+      "outputTokens": 1816,
+      "costUSD": 0.036525
+    },
+    "B": {
+      "variantName": "voice-identity",
+      "runs": 1,
+      "inputTokens": 2273,
+      "outputTokens": 1998,
+      "costUSD": 0.036789
+    },
+    "C": {
+      "variantName": "filter-intrusion",
+      "runs": 1,
+      "inputTokens": 2504,
+      "outputTokens": 1857,
+      "costUSD": 0.035367
+    },
+    "D": {
+      "variantName": "show-lens",
+      "runs": 1,
+      "inputTokens": 2390,
+      "outputTokens": 1810,
+      "costUSD": 0.03432
+    },
+    "E": {
+      "variantName": "sensory-dialect",
+      "runs": 1,
+      "inputTokens": 2373,
+      "outputTokens": 1963,
+      "costUSD": 0.036564
+    },
+    "F": {
+      "variantName": "suspense-hindsight",
+      "runs": 1,
+      "inputTokens": 2532,
+      "outputTokens": 1989,
+      "costUSD": 0.037431
+    },
+    "G": {
+      "variantName": "variation-distance",
+      "runs": 1,
+      "inputTokens": 2555,
+      "outputTokens": 1982,
+      "costUSD": 0.037395
+    },
+    "H": {
+      "variantName": "specificity-similes",
+      "runs": 1,
+      "inputTokens": 2593,
+      "outputTokens": 2000,
+      "costUSD": 0.037779
+    },
+    "I": {
+      "variantName": "final-gate",
+      "runs": 1,
+      "inputTokens": 2630,
+      "outputTokens": 2008,
+      "costUSD": 0.03801
+    }
+  },
+  "byModel": {
+    "claude-sonnet-4-6": {
+      "inputTokens": 22945,
+      "outputTokens": 17423,
+      "costUSD": 0.33018
+    }
+  },
+  "runs": [
+    {
+      "runId": "A-01",
+      "variant": "A",
+      "timestamp": "2026-04-03T16:37:59.407274+00:00",
+      "inputTokens": 3095,
+      "outputTokens": 1816,
+      "totalTokens": 4911,
+      "costUSD": 0.036525
+    },
+    {
+      "runId": "B-01",
+      "variant": "B",
+      "timestamp": "2026-04-03T16:38:35.327473+00:00",
+      "inputTokens": 2273,
+      "outputTokens": 1998,
+      "totalTokens": 4271,
+      "costUSD": 0.036789
+    },
+    {
+      "runId": "C-01",
+      "variant": "C",
+      "timestamp": "2026-04-03T16:38:48.873141+00:00",
+      "inputTokens": 2504,
+      "outputTokens": 1857,
+      "totalTokens": 4361,
+      "costUSD": 0.035367
+    },
+    {
+      "runId": "D-01",
+      "variant": "D",
+      "timestamp": "2026-04-03T16:39:02.233937+00:00",
+      "inputTokens": 2390,
+      "outputTokens": 1810,
+      "totalTokens": 4200,
+      "costUSD": 0.03432
+    },
+    {
+      "runId": "E-01",
+      "variant": "E",
+      "timestamp": "2026-04-03T16:39:37.360647+00:00",
+      "inputTokens": 2373,
+      "outputTokens": 1963,
+      "totalTokens": 4336,
+      "costUSD": 0.036564
+    },
+    {
+      "runId": "F-01",
+      "variant": "F",
+      "timestamp": "2026-04-03T16:39:53.095846+00:00",
+      "inputTokens": 2532,
+      "outputTokens": 1989,
+      "totalTokens": 4521,
+      "costUSD": 0.037431
+    },
+    {
+      "runId": "G-01",
+      "variant": "G",
+      "timestamp": "2026-04-03T16:40:30.529300+00:00",
+      "inputTokens": 2555,
+      "outputTokens": 1982,
+      "totalTokens": 4537,
+      "costUSD": 0.037395
+    },
+    {
+      "runId": "H-01",
+      "variant": "H",
+      "timestamp": "2026-04-03T16:41:06.859282+00:00",
+      "inputTokens": 2593,
+      "outputTokens": 2000,
+      "totalTokens": 4593,
+      "costUSD": 0.037779
+    },
+    {
+      "runId": "I-01",
+      "variant": "I",
+      "timestamp": "2026-04-03T16:41:21.807200+00:00",
+      "inputTokens": 2630,
+      "outputTokens": 2008,
+      "totalTokens": 4638,
+      "costUSD": 0.03801
+    }
+  ]
+}

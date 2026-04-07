@@ -1,0 +1,11 @@
+{
+  "experiment":       "exp-1002",
+  "description":      "Stakes as Situational Briefing — LoL carve-out trap, weak Persona baseline vs. weak Persona + situational Stakes",
+  "provider":         "CLAUDE",
+  "model":            "claude-sonnet-4-6",
+  "temperature":      0.5,
+  "max_tokens":       4000,
+  "runs_per_variant": 10,
+  "variants":         ["A", "B"],
+  "artifact":         "CONTRACT.md"
+}

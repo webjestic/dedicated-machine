@@ -1,0 +1,15 @@
+{
+  "runId": "I-01",
+  "experiment": "exp-1000",
+  "variant": "I",
+  "variantName": "final-gate",
+  "timestamp": "2026-04-03T16:41:21.807200+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 2630,
+  "outputTokens": 2008,
+  "totalTokens": 4638,
+  "costUSD": 0.03801,
+  "outputFile": "data/raw/I-01.md"
+}

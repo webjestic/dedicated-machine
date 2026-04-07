@@ -1,0 +1,12 @@
+{
+  "experiment": "exp-1000d",
+  "description": "Move structural gates to I — denial + verdict + falsification fragments + CTA; restore D to filters only",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "max_tokens": 8000,
+  "runs_per_variant": 1,
+  "variants": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+  "artifact": "ARTIFACT.md",
+  "pipeline": [["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]]
+}

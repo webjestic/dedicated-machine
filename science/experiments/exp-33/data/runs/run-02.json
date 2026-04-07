@@ -1,0 +1,23 @@
+{
+  "runId": "run-02",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:12:14.395932+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2433,
+    "costUSD": 0.04767,
+    "outputFile": "data/raw/L1-02.md"
+  },
+  "layer2": {
+    "inputTokens": 4208,
+    "outputTokens": 4000,
+    "costUSD": 0.072624,
+    "outputFile": "data/raw/L2-02.md"
+  },
+  "handoffExtracted": "This review traced the full lock acquisition, renewal, and release path under concurrent execution, including the GC-pause / process-pause scenario where lock TTL expires mid-execution. The central finding is that the heartbeat thread detects token mismatch (lock loss) and exits silently, with no si...",
+  "totalInputTokens": 7933,
+  "totalOutputTokens": 6433,
+  "totalCostUSD": 0.120294
+}

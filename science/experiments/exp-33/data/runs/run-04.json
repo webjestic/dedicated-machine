@@ -1,0 +1,23 @@
+{
+  "runId": "run-04",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:17:28.661691+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2561,
+    "costUSD": 0.04959,
+    "outputFile": "data/raw/L1-04.md"
+  },
+  "layer2": {
+    "inputTokens": 4129,
+    "outputTokens": 3359,
+    "costUSD": 0.062772,
+    "outputFile": "data/raw/L2-04.md"
+  },
+  "handoffExtracted": "This review traced the full lock acquisition, renewal, and release path under concurrent execution, including GC-pause and thread-starvation scenarios. The central finding is a zombie-write vulnerability: heartbeat thread exit on lock loss is not signaled to the main execution thread, allowing two w...",
+  "totalInputTokens": 7854,
+  "totalOutputTokens": 5920,
+  "totalCostUSD": 0.112362
+}

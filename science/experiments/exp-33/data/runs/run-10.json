@@ -1,0 +1,23 @@
+{
+  "runId": "run-10",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:32:17.383897+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2637,
+    "costUSD": 0.05073,
+    "outputFile": "data/raw/L1-10.md"
+  },
+  "layer2": {
+    "inputTokens": 4125,
+    "outputTokens": 3471,
+    "costUSD": 0.06444,
+    "outputFile": "data/raw/L2-10.md"
+  },
+  "handoffExtracted": "This review covered lock acquisition, heartbeat renewal, lock release atomicity, error handling on all Redis operations, the idempotency check, and the public interface contract of `execute()`. Two blocking correctness defects were identified: the heartbeat thread detects lock loss but does not sign...",
+  "totalInputTokens": 7850,
+  "totalOutputTokens": 6108,
+  "totalCostUSD": 0.11517
+}

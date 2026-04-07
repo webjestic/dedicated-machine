@@ -1,0 +1,79 @@
+{
+  "experiment": "exp-33",
+  "totalRuns": 10,
+  "totalInputTokens": 78693,
+  "totalOutputTokens": 60223,
+  "totalCostUSD": 1.139424,
+  "runs": [
+    {
+      "runId": "run-01",
+      "timestamp": "2026-04-02T18:09:25.947185+00:00",
+      "l1CostUSD": 0.045855,
+      "l2CostUSD": 0.072435,
+      "totalCostUSD": 0.11829
+    },
+    {
+      "runId": "run-02",
+      "timestamp": "2026-04-02T18:12:14.395932+00:00",
+      "l1CostUSD": 0.04767,
+      "l2CostUSD": 0.072624,
+      "totalCostUSD": 0.120294
+    },
+    {
+      "runId": "run-03",
+      "timestamp": "2026-04-02T18:15:02.843882+00:00",
+      "l1CostUSD": 0.053685,
+      "l2CostUSD": 0.070011,
+      "totalCostUSD": 0.123696
+    },
+    {
+      "runId": "run-04",
+      "timestamp": "2026-04-02T18:17:28.661691+00:00",
+      "l1CostUSD": 0.04959,
+      "l2CostUSD": 0.062772,
+      "totalCostUSD": 0.112362
+    },
+    {
+      "runId": "run-05",
+      "timestamp": "2026-04-02T18:20:10.027271+00:00",
+      "l1CostUSD": 0.04578,
+      "l2CostUSD": 0.072414,
+      "totalCostUSD": 0.118194
+    },
+    {
+      "runId": "run-06",
+      "timestamp": "2026-04-02T18:22:38.316081+00:00",
+      "l1CostUSD": 0.04278,
+      "l2CostUSD": 0.069414,
+      "totalCostUSD": 0.112194
+    },
+    {
+      "runId": "run-07",
+      "timestamp": "2026-04-02T18:25:01.058501+00:00",
+      "l1CostUSD": 0.0417,
+      "l2CostUSD": 0.06699,
+      "totalCostUSD": 0.10869
+    },
+    {
+      "runId": "run-08",
+      "timestamp": "2026-04-02T18:27:20.121679+00:00",
+      "l1CostUSD": 0.043155,
+      "l2CostUSD": 0.060813,
+      "totalCostUSD": 0.103968
+    },
+    {
+      "runId": "run-09",
+      "timestamp": "2026-04-02T18:29:48.911639+00:00",
+      "l1CostUSD": 0.042645,
+      "l2CostUSD": 0.063921,
+      "totalCostUSD": 0.106566
+    },
+    {
+      "runId": "run-10",
+      "timestamp": "2026-04-02T18:32:17.383897+00:00",
+      "l1CostUSD": 0.05073,
+      "l2CostUSD": 0.06444,
+      "totalCostUSD": 0.11517
+    }
+  ]
+}

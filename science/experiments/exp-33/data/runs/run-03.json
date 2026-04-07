@@ -1,0 +1,23 @@
+{
+  "runId": "run-03",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:15:02.843882+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2834,
+    "costUSD": 0.053685,
+    "outputFile": "data/raw/L1-03.md"
+  },
+  "layer2": {
+    "inputTokens": 4112,
+    "outputTokens": 3845,
+    "costUSD": 0.070011,
+    "outputFile": "data/raw/L2-03.md"
+  },
+  "handoffExtracted": "This review covered lock acquisition, renewal, and release atomicity; the heartbeat-to-main-thread signaling path; idempotency guarantee scope; error handling for Redis unavailability at acquisition and during renewal; and test coverage of failure paths. The central finding is that the heartbeat thr...",
+  "totalInputTokens": 7837,
+  "totalOutputTokens": 6679,
+  "totalCostUSD": 0.123696
+}

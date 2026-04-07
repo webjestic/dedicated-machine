@@ -1,0 +1,23 @@
+{
+  "runId": "run-09",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:29:48.911639+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2098,
+    "costUSD": 0.042645,
+    "outputFile": "data/raw/L1-09.md"
+  },
+  "layer2": {
+    "inputTokens": 4147,
+    "outputTokens": 3432,
+    "costUSD": 0.063921,
+    "outputFile": "data/raw/L2-09.md"
+  },
+  "handoffExtracted": "This review covered lock acquisition, renewal, and release atomicity; the correctness of the Lua scripts; the communication contract between the heartbeat thread and the main execution thread; Redis error handling in the renewal path; exception handling in the dispatch and database paths; and test c...",
+  "totalInputTokens": 7872,
+  "totalOutputTokens": 5530,
+  "totalCostUSD": 0.106566
+}

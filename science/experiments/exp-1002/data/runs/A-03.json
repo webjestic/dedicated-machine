@@ -1,0 +1,15 @@
+{
+  "runId": "A-03",
+  "experiment": "exp-1002",
+  "variant": "A",
+  "variantName": "weak-persona",
+  "timestamp": "2026-04-06T21:23:37.207363+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2594,
+  "outputTokens": 284,
+  "totalTokens": 2878,
+  "costUSD": 0.012042,
+  "outputFile": "data/raw/A-03.md"
+}
