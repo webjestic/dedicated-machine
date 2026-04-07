@@ -1,0 +1,15 @@
+{
+  "runId": "A-01",
+  "experiment": "exp-35",
+  "variant": "A",
+  "variantName": "strong-cot",
+  "timestamp": "2026-04-02T19:37:56.539110+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3848,
+  "outputTokens": 2389,
+  "totalTokens": 6237,
+  "costUSD": 0.047379,
+  "outputFile": "data/raw/A-01.md"
+}

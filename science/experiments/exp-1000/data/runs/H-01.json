@@ -1,0 +1,15 @@
+{
+  "runId": "H-01",
+  "experiment": "exp-1000",
+  "variant": "H",
+  "variantName": "specificity-similes",
+  "timestamp": "2026-04-03T16:41:06.859282+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 2593,
+  "outputTokens": 2000,
+  "totalTokens": 4593,
+  "costUSD": 0.037779,
+  "outputFile": "data/raw/H-01.md"
+}

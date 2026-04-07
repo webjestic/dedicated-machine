@@ -1,0 +1,15 @@
+{
+  "experiment": "exp-32",
+  "description": "PARC self-review — academic paper reviewer P_p vs. P_d on parc_d7.md",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 4096,
+  "runs_per_variant": 5,
+  "variants": [
+    "A",
+    "B"
+  ],
+  "artifact": "../../../../research/paper/parc_d7.md",
+  "notes": "Replication of exp-06 on parc_d7.md. exp-06 reviewed pcsieftr_d2.md (pre-Dedicated Machine frame). exp-32 reviews parc_d7.md (Dedicated Machine as central theoretical claim). Central question: does d7's explanatory framing constitute content-as-installer — does a P_d reviewer find structural gaps at rates approaching P_p because the paper itself explains the mechanism? Variants identical to exp-06; Context section updated to match d7 claims. Uses {{ARTIFACT}} injection via standard runner."
+}

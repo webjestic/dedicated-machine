@@ -1,0 +1,15 @@
+{
+  "runId": "A-01",
+  "experiment": "exp-1000d",
+  "variant": "A",
+  "variantName": "foundation",
+  "timestamp": "2026-04-06T11:31:54.081133+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 3124,
+  "outputTokens": 469,
+  "totalTokens": 3593,
+  "costUSD": 0.016407,
+  "outputFile": "data/raw/A-01.md"
+}

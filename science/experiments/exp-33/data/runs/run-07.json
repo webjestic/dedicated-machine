@@ -1,0 +1,23 @@
+{
+  "runId": "run-07",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:25:01.058501+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2035,
+    "costUSD": 0.0417,
+    "outputFile": "data/raw/L1-07.md"
+  },
+  "layer2": {
+    "inputTokens": 4155,
+    "outputTokens": 3635,
+    "costUSD": 0.06699,
+    "outputFile": "data/raw/L2-07.md"
+  },
+  "handoffExtracted": "This review traced the full lock acquisition, heartbeat renewal, and release path under concurrent execution, with specific focus on atomicity, thread coordination, and error handling. The critical finding is that the heartbeat thread exits silently on lock loss without signaling the main thread, al...",
+  "totalInputTokens": 7880,
+  "totalOutputTokens": 5670,
+  "totalCostUSD": 0.10869
+}

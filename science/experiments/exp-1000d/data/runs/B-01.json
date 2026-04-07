@@ -1,0 +1,15 @@
+{
+  "runId": "B-01",
+  "experiment": "exp-1000d",
+  "variant": "B",
+  "variantName": "voice-identity",
+  "timestamp": "2026-04-06T11:31:59.495617+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 1042,
+  "outputTokens": 473,
+  "totalTokens": 1515,
+  "costUSD": 0.010221,
+  "outputFile": "data/raw/B-01.md"
+}

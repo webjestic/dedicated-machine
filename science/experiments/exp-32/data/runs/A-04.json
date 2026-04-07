@@ -1,0 +1,15 @@
+{
+  "runId": "A-04",
+  "experiment": "exp-32",
+  "variant": "A",
+  "variantName": "pp-paper-review",
+  "timestamp": "2026-04-02T16:09:08.975625+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 25503,
+  "outputTokens": 3887,
+  "totalTokens": 29390,
+  "costUSD": 0.134814,
+  "outputFile": "data/raw/A-04.md"
+}

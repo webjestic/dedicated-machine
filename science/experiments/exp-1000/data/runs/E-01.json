@@ -1,0 +1,15 @@
+{
+  "runId": "E-01",
+  "experiment": "exp-1000",
+  "variant": "E",
+  "variantName": "sensory-dialect",
+  "timestamp": "2026-04-03T16:39:37.360647+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 2373,
+  "outputTokens": 1963,
+  "totalTokens": 4336,
+  "costUSD": 0.036564,
+  "outputFile": "data/raw/E-01.md"
+}

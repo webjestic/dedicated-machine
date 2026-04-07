@@ -1,0 +1,12 @@
+{
+  "experiment": "exp-35",
+  "description": "Strong CoT baseline — can explicit chain-of-thought in Instructions replicate P_p?",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "max_tokens": 3000,
+  "runs_per_variant": 10,
+  "variants": ["A", "B"],
+  "artifact": "../exp-09/ARTIFACT.md",
+  "notes": "A: Strong CoT (P_d persona, all procedural content in Instructions). B: P_p control (identical to exp-34 A). Primary comparison: A vs B within-experiment, and A vs exp-09-A (1/10) cross-experiment."
+}

@@ -1,0 +1,179 @@
+{
+  "experiment": "exp-1000c",
+  "totalRuns": 10,
+  "totalInputTokens": 13314,
+  "totalOutputTokens": 5679,
+  "totalTokens": 18993,
+  "totalCostUSD": 0.125127,
+  "byVariant": {
+    "A": {
+      "variantName": "foundation",
+      "runs": 1,
+      "inputTokens": 3124,
+      "outputTokens": 493,
+      "costUSD": 0.016767
+    },
+    "B": {
+      "variantName": "voice-identity",
+      "runs": 1,
+      "inputTokens": 1066,
+      "outputTokens": 514,
+      "costUSD": 0.010908
+    },
+    "C": {
+      "variantName": "suspense-hindsight",
+      "runs": 1,
+      "inputTokens": 1093,
+      "outputTokens": 539,
+      "costUSD": 0.011364
+    },
+    "D": {
+      "variantName": "filter-intrusion",
+      "runs": 1,
+      "inputTokens": 1278,
+      "outputTokens": 525,
+      "costUSD": 0.011709
+    },
+    "E": {
+      "variantName": "show-lens",
+      "runs": 1,
+      "inputTokens": 1055,
+      "outputTokens": 525,
+      "costUSD": 0.01104
+    },
+    "F": {
+      "variantName": "sensory-dialect",
+      "runs": 1,
+      "inputTokens": 1091,
+      "outputTokens": 569,
+      "costUSD": 0.011808
+    },
+    "G": {
+      "variantName": "variation-distance",
+      "runs": 1,
+      "inputTokens": 1112,
+      "outputTokens": 606,
+      "costUSD": 0.012426
+    },
+    "H": {
+      "variantName": "specificity-similes",
+      "runs": 1,
+      "inputTokens": 1138,
+      "outputTokens": 635,
+      "costUSD": 0.012939
+    },
+    "I": {
+      "variantName": "opening-cta",
+      "runs": 1,
+      "inputTokens": 1192,
+      "outputTokens": 639,
+      "costUSD": 0.013161
+    },
+    "J": {
+      "variantName": "final-gate",
+      "runs": 1,
+      "inputTokens": 1165,
+      "outputTokens": 634,
+      "costUSD": 0.013005
+    }
+  },
+  "byModel": {
+    "claude-sonnet-4-6": {
+      "inputTokens": 13314,
+      "outputTokens": 5679,
+      "costUSD": 0.125127
+    }
+  },
+  "runs": [
+    {
+      "runId": "A-01",
+      "variant": "A",
+      "timestamp": "2026-04-04T14:48:53.839682+00:00",
+      "inputTokens": 3124,
+      "outputTokens": 493,
+      "totalTokens": 3617,
+      "costUSD": 0.016767
+    },
+    {
+      "runId": "B-01",
+      "variant": "B",
+      "timestamp": "2026-04-04T14:49:00.362104+00:00",
+      "inputTokens": 1066,
+      "outputTokens": 514,
+      "totalTokens": 1580,
+      "costUSD": 0.010908
+    },
+    {
+      "runId": "C-01",
+      "variant": "C",
+      "timestamp": "2026-04-04T14:49:07.941221+00:00",
+      "inputTokens": 1093,
+      "outputTokens": 539,
+      "totalTokens": 1632,
+      "costUSD": 0.011364
+    },
+    {
+      "runId": "D-01",
+      "variant": "D",
+      "timestamp": "2026-04-04T14:49:13.681916+00:00",
+      "inputTokens": 1278,
+      "outputTokens": 525,
+      "totalTokens": 1803,
+      "costUSD": 0.011709
+    },
+    {
+      "runId": "E-01",
+      "variant": "E",
+      "timestamp": "2026-04-04T14:49:19.102265+00:00",
+      "inputTokens": 1055,
+      "outputTokens": 525,
+      "totalTokens": 1580,
+      "costUSD": 0.01104
+    },
+    {
+      "runId": "F-01",
+      "variant": "F",
+      "timestamp": "2026-04-04T14:49:26.373677+00:00",
+      "inputTokens": 1091,
+      "outputTokens": 569,
+      "totalTokens": 1660,
+      "costUSD": 0.011808
+    },
+    {
+      "runId": "G-01",
+      "variant": "G",
+      "timestamp": "2026-04-04T14:49:35.281796+00:00",
+      "inputTokens": 1112,
+      "outputTokens": 606,
+      "totalTokens": 1718,
+      "costUSD": 0.012426
+    },
+    {
+      "runId": "H-01",
+      "variant": "H",
+      "timestamp": "2026-04-04T14:49:42.654501+00:00",
+      "inputTokens": 1138,
+      "outputTokens": 635,
+      "totalTokens": 1773,
+      "costUSD": 0.012939
+    },
+    {
+      "runId": "I-01",
+      "variant": "I",
+      "timestamp": "2026-04-04T14:49:54.633673+00:00",
+      "inputTokens": 1192,
+      "outputTokens": 639,
+      "totalTokens": 1831,
+      "costUSD": 0.013161
+    },
+    {
+      "runId": "J-01",
+      "variant": "J",
+      "timestamp": "2026-04-04T14:50:00.666077+00:00",
+      "inputTokens": 1165,
+      "outputTokens": 634,
+      "totalTokens": 1799,
+      "costUSD": 0.013005
+    }
+  ]
+}

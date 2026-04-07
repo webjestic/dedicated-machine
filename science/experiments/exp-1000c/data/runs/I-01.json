@@ -1,0 +1,15 @@
+{
+  "runId": "I-01",
+  "experiment": "exp-1000c",
+  "variant": "I",
+  "variantName": "opening-cta",
+  "timestamp": "2026-04-04T14:49:54.633673+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 1192,
+  "outputTokens": 639,
+  "totalTokens": 1831,
+  "costUSD": 0.013161,
+  "outputFile": "data/raw/I-01.md"
+}

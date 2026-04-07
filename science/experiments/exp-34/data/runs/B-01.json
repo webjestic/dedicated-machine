@@ -1,0 +1,15 @@
+{
+  "runId": "B-01",
+  "experiment": "exp-34",
+  "variant": "B",
+  "variantName": "pp-true-pointer",
+  "timestamp": "2026-04-02T19:02:21.274124+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3743,
+  "outputTokens": 2210,
+  "totalTokens": 5953,
+  "costUSD": 0.044379,
+  "outputFile": "data/raw/B-01.md"
+}
