@@ -1,0 +1,15 @@
+{
+  "runId": "C-08",
+  "experiment": "exp-34",
+  "variant": "C",
+  "variantName": "pp-decoy",
+  "timestamp": "2026-04-02T18:52:22.048066+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3753,
+  "outputTokens": 1784,
+  "totalTokens": 5537,
+  "costUSD": 0.038019,
+  "outputFile": "data/raw/C-08.md"
+}

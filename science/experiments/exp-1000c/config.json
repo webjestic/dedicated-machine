@@ -1,0 +1,12 @@
+{
+  "experiment": "exp-1000c",
+  "description": "Surgical fixes on exp-1000b — sharpen denial in I, add falsification fragments to D",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "max_tokens": 8000,
+  "runs_per_variant": 1,
+  "variants": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+  "artifact": "ARTIFACT.md",
+  "pipeline": [["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]]
+}

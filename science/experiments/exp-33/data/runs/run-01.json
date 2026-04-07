@@ -1,0 +1,23 @@
+{
+  "runId": "run-01",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:09:25.947185+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2312,
+    "costUSD": 0.045855,
+    "outputFile": "data/raw/L1-01.md"
+  },
+  "layer2": {
+    "inputTokens": 4145,
+    "outputTokens": 4000,
+    "costUSD": 0.072435,
+    "outputFile": "data/raw/L2-01.md"
+  },
+  "handoffExtracted": "This review traced the full lock acquisition, renewal, and release path under concurrent execution, including GC-pause and Redis-unavailability scenarios. The primary finding is a structural correctness violation: the heartbeat thread exits silently on lock loss, and the main thread has no signal pa...",
+  "totalInputTokens": 7870,
+  "totalOutputTokens": 6312,
+  "totalCostUSD": 0.11829
+}

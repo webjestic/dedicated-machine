@@ -1,0 +1,15 @@
+{
+  "runId": "B-10",
+  "experiment": "exp-1002",
+  "variant": "B",
+  "variantName": "weak-persona-situational-stakes",
+  "timestamp": "2026-04-06T21:43:02.610148+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 2687,
+  "outputTokens": 363,
+  "totalTokens": 3050,
+  "costUSD": 0.013506,
+  "outputFile": "data/raw/B-10.md"
+}

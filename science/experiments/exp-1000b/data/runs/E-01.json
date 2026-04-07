@@ -1,0 +1,15 @@
+{
+  "runId": "E-01",
+  "experiment": "exp-1000b",
+  "variant": "E",
+  "variantName": "show-lens",
+  "timestamp": "2026-04-04T14:32:49.935302+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 997,
+  "outputTokens": 467,
+  "totalTokens": 1464,
+  "costUSD": 0.009996,
+  "outputFile": "data/raw/E-01.md"
+}

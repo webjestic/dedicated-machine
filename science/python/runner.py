@@ -53,6 +53,50 @@ from lib.output import (
 
 
 # ---------------------------------------------------------------------------
+# Pipeline support
+# ---------------------------------------------------------------------------
+
+def build_predecessor_map(config: dict) -> dict:
+    """
+    Returns a dict mapping each variant to its predecessor variant (or None).
+
+    If config has no "pipeline" key, all variants map to None (each reads ARTIFACT).
+    If config has "pipeline": [["A","B","C"], ["D","E","F"]], then:
+        A→None, B→A, C→B, D→None, E→D, F→E
+    """
+    pipeline_groups = config.get("pipeline")
+    if not pipeline_groups:
+        return {v: None for v in config["variants"]}
+
+    predecessor = {}
+    for group in pipeline_groups:
+        for i, variant_id in enumerate(group):
+            predecessor[variant_id] = group[i - 1] if i > 0 else None
+    # any variant not in a pipeline group reads ARTIFACT
+    for v in config["variants"]:
+        if v not in predecessor:
+            predecessor[v] = None
+    return predecessor
+
+
+def load_predecessor_output(raw_dir: Path, predecessor_id: str, run_num: int) -> str:
+    """
+    Load predecessor variant's output for run_num.
+    Falls back to the highest available run if run_num doesn't exist yet.
+    """
+    target = raw_dir / f"{predecessor_id}-{run_num:02d}.md"
+    if target.exists():
+        return target.read_text()
+    # fallback: highest numbered run of that variant
+    candidates = sorted(raw_dir.glob(f"{predecessor_id}-*.md"))
+    if not candidates:
+        raise FileNotFoundError(
+            f"No output found for predecessor variant '{predecessor_id}' in {raw_dir}"
+        )
+    return candidates[-1].read_text()
+
+
+# ---------------------------------------------------------------------------
 # Variant loading
 # ---------------------------------------------------------------------------
 
@@ -96,6 +140,10 @@ def dry_run(exp_dir: Path, config: dict, pricing: dict) -> None:
         artifact_path = exp_dir / config["artifact"]
         status = "found" if artifact_path.exists() else "MISSING"
         print(f"  Artifact:    {config['artifact']} ({status})")
+    if config.get("pipeline"):
+        for group in config["pipeline"]:
+            chain = " → ".join(group)
+            print(f"  Pipeline:    {chain}")
     print(f"  Output:")
     print(f"    Runs:      {exp_dir / 'data' / 'runs'}")
     print(f"    Raw:       {exp_dir / 'data' / 'raw'}")
@@ -112,19 +160,20 @@ def run_experiment(exp_dir: Path, config: dict, pricing: dict,
     runs_dir = exp_dir / "data" / "runs"
     raw_dir = exp_dir / "data" / "raw"
 
-    artifact = ""
+    base_artifact = ""
     if config.get("artifact"):
         artifact_path = exp_dir / config["artifact"]
         if artifact_path.exists():
-            artifact = artifact_path.read_text()
+            base_artifact = artifact_path.read_text()
         else:
             print(f"Warning: artifact '{config['artifact']}' not found in {exp_dir}",
                   file=sys.stderr)
 
+    predecessor_map = build_predecessor_map(config)
+
     totals = load_totals(runs_dir)
 
     for variant_id in variants_to_run:
-        prompt = load_variant(variants_dir, variant_id, artifact)
         variant_name = get_variant_name(variants_dir, variant_id)
 
         run_start = start_run if variant_id == variants_to_run[0] else 1
@@ -133,6 +182,15 @@ def run_experiment(exp_dir: Path, config: dict, pricing: dict,
 
         for run_num in range(run_start, n + 1):
             print(f"  run {run_num:02d}...", end=" ", flush=True)
+
+            # resolve artifact: predecessor output or base ARTIFACT.md
+            predecessor = predecessor_map.get(variant_id)
+            if predecessor:
+                artifact = load_predecessor_output(raw_dir, predecessor, run_num)
+            else:
+                artifact = base_artifact
+
+            prompt = load_variant(variants_dir, variant_id, artifact)
 
             response = call_api(
                 config["provider"],

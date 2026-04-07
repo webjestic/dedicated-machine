@@ -1,0 +1,15 @@
+{
+  "runId": "C-01",
+  "experiment": "exp-1000",
+  "variant": "C",
+  "variantName": "filter-intrusion",
+  "timestamp": "2026-04-03T16:38:48.873141+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 2504,
+  "outputTokens": 1857,
+  "totalTokens": 4361,
+  "costUSD": 0.035367,
+  "outputFile": "data/raw/C-01.md"
+}

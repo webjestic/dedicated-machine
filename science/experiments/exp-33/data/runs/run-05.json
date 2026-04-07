@@ -1,0 +1,23 @@
+{
+  "runId": "run-05",
+  "experiment": "exp-33",
+  "timestamp": "2026-04-02T18:20:10.027271+00:00",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "layer1": {
+    "inputTokens": 3725,
+    "outputTokens": 2307,
+    "costUSD": 0.04578,
+    "outputFile": "data/raw/L1-05.md"
+  },
+  "layer2": {
+    "inputTokens": 4138,
+    "outputTokens": 4000,
+    "costUSD": 0.072414,
+    "outputFile": "data/raw/L2-05.md"
+  },
+  "handoffExtracted": "This review traced the full lock acquisition, heartbeat renewal, and release path under concurrent execution, with specific attention to process-pause and GC-pause scenarios. The critical finding is that the heartbeat thread exits silently on lock loss (`result == 0` from `RENEW_CLAIM_SCRIPT`) witho...",
+  "totalInputTokens": 7863,
+  "totalOutputTokens": 6307,
+  "totalCostUSD": 0.118194
+}

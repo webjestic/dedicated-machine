@@ -1,0 +1,15 @@
+{
+  "runId": "G-01",
+  "experiment": "exp-1000d",
+  "variant": "G",
+  "variantName": "variation-distance",
+  "timestamp": "2026-04-06T11:32:27.468720+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 1088,
+  "outputTokens": 544,
+  "totalTokens": 1632,
+  "costUSD": 0.011424,
+  "outputFile": "data/raw/G-01.md"
+}

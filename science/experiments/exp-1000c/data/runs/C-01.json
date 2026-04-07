@@ -1,0 +1,15 @@
+{
+  "runId": "C-01",
+  "experiment": "exp-1000c",
+  "variant": "C",
+  "variantName": "suspense-hindsight",
+  "timestamp": "2026-04-04T14:49:07.941221+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "inputTokens": 1093,
+  "outputTokens": 539,
+  "totalTokens": 1632,
+  "costUSD": 0.011364,
+  "outputFile": "data/raw/C-01.md"
+}

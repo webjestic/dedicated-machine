@@ -1,0 +1,15 @@
+{
+  "runId": "A-05",
+  "experiment": "exp-34",
+  "variant": "A",
+  "variantName": "pp-control",
+  "timestamp": "2026-04-02T19:16:25.841565+00:00",
+  "provider": "CLAUDE",
+  "model": "claude-sonnet-4-6",
+  "temperature": 0.5,
+  "inputTokens": 3673,
+  "outputTokens": 2256,
+  "totalTokens": 5929,
+  "costUSD": 0.044859,
+  "outputFile": "data/raw/A-05.md"
+}

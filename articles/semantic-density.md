@@ -27,15 +27,15 @@ The problem is that expertise labels are diffuse. "Senior software engineer" act
 
 The PARC experiments measured this precisely. A dispositional persona — one that labels an identity — produces a stable output floor. Call it the P_d ceiling. The model does more than nothing. It doesn't consistently reach the hard findings.
 
-Adding a compulsion to a dispositional persona doesn't help. "Cannot help but catch every bug" — the framing sounds forceful, but the experiments falsified it.
+Adding a compulsion to a dispositional persona doesn't help. "Cannot help but catch every bug" — the framing sounds forceful, but compulsion is not the operative variable.
 
 ---
 
-## What the Falsification Found
+## What the Experiments Found
 
 The compulsion-as-reflex hypothesis was intuitive: if you encode the behavior as a reflex, as something the model *cannot avoid*, you bypass deliberation and install the behavior more reliably. "Constitutionally unable to X" or "can't help but Y" was expected to be a portable amplifier.
 
-It isn't.
+It isn't the operative variable.
 
 Experiment 17 isolated the variable directly: four variants, holding everything constant except the framing. Variant A paired compulsion framing with domain vocabulary. Variant B paired trait framing ("your reviews are...") with the same domain vocabulary. Variant C paired compulsion framing with generic vocabulary. Variant D was the P_d baseline.
 
@@ -130,7 +130,7 @@ Every orientation phrase has a mechanism equivalent. The orientation phrase tell
 
 The compulsion framing is not useless. "Cannot help but" and "constitutionally unable to" do something — they express behavioral drive, install a sense of automaticity. But the experiments are unambiguous: compulsion framing *without domain vocabulary* produces no amplification over the P_d baseline. Compulsion framing *with domain vocabulary* is outperformed by trait framing with the same domain vocabulary.
 
-The compulsion is not the mechanism. It's a register choice that sounds forceful and produces no reliable lift. Practitioners who have been writing compulsion personas and getting good results are almost certainly getting those results from the domain vocabulary they've been pairing with the compulsion — not from the compulsion itself.
+The compulsion is not the mechanism. It's a register choice that sounds forceful but produces no reliable lift on its own. Practitioners who have been writing compulsion personas and getting good results are almost certainly getting those results from the domain vocabulary they've been pairing with the compulsion — not from the compulsion itself.
 
 Removing the compulsion and keeping the domain vocabulary: same results.
 Adding the compulsion and removing the domain vocabulary: P_d floor.
